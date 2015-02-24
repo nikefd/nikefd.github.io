@@ -1,7 +1,6 @@
 ---
 layout: default
 title: 我的梦想
-category: thinking
 ---
 <h2>{{ page.title }}</h2>
 <p>今天好好想想自己到底想干些什么，自己的梦想，到底是什么？
