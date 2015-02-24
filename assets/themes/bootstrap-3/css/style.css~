@@ -21,9 +21,7 @@ h1, h2, h3, h4 {
   background-color: #fdcd60;
 }
 
-.body{
-  font-family: 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', Monaco, monospace, serif;
-}
+
 
 /* posts index */
 .post > h3.title {
