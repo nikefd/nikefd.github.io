@@ -10,7 +10,7 @@ catelogy: daf
 
 ####1. 插件一：markdown语法高亮
 
-**step 1**： 下载语言包[master.zip][1]
+**step 1**： 下载语言包[markdown][1]
 
 **step 2**： Language -> define your language -> Import ... ，选择userDefineLang.xml
 
@@ -28,7 +28,7 @@ catelogy: daf
 
 预览HTML文件
 
-[1] https://github.com/Edditoria/markdown_npp_zenburn/archive/master.zip [markdown-npp] "master.zip"
+[1]: https://github.com/Edditoria/markdown_npp_zenburn/archive/master.zip    "markdown"
 
-[explorer] https://github.com/nikefd/nikefd.github.io/image/explorer.png
-[compare] https://github.com/nikefd/nikefd.github.io/image/compare.png
+[explorer]: /nikefd.github.io/image/explorer.png
+[compare]: /nikefd.github.io/image/compare.png
