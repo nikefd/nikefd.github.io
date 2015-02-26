@@ -30,5 +30,5 @@ catelogy: daf
 
 [1]: https://github.com/Edditoria/markdown_npp_zenburn/archive/master.zip    "markdown"
 
-[explorer]: /nikefd.github.io/image/explorer.png
-[compare]: /nikefd.github.io/image/compare.png
+[explorer]: /image/explorer.png
+[compare]: /image/compare.png
