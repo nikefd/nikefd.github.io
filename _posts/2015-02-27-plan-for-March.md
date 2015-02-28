@@ -71,23 +71,11 @@ category: plan
   </tbody>
 </table>
 
- Time             |   job
-:-----------------|:-----------
-6:30              | 起床了
-7:20-11:20	      | 学习
-12:00-12:30       | 学习
-12:30-13:00       | 睡觉
-13:10-16:40       | 学习
-17:20-17:30		  | 散步
-17:40-21:00       | 学习
-21:10-22:00       | 锻炼或娱乐
-23:00			  | 睡觉了
-
 每周有一天空闲时间自由安排
 
 打卡表：
 
-<table width="200">
+<table width="800">
   <thead>
     <tr>
       <th style="text-align: left">3.1</th>
@@ -111,6 +99,47 @@ category: plan
   <tbody>
     <tr>
       <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+<table width="800">
+  <thead>
+    <tr>
+      <th style="text-align: left">3.17</th>
+      <th style="text-align: left">3.18</th>
+      <th style="text-align: left">3.19</th>
+      <th style="text-align: left">3.20</th>
+      <th style="text-align: left">3.21</th>
+      <th style="text-align: left">3.22</th>
+      <th style="text-align: left">3.23</th>
+      <th style="text-align: left">3.24</th>
+      <th style="text-align: left">3.25</th>
+	  <th style="text-align: left">3.26</th>
+      <th style="text-align: left">3.27</th>
+      <th style="text-align: left">3.28</th>
+      <th style="text-align: left">3.29</th>
+      <th style="text-align: left">3.30</th>
+      <th style="text-align: left">3.31</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <td style="text-align: left">&nbsp;</td>
       <td style="text-align: left">&nbsp;</td>
       <td style="text-align: left">&nbsp;</td>
