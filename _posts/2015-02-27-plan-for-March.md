@@ -2,7 +2,7 @@
 layout: default
 title: 三月份计划
 category: plan
-tags： ［plan job]
+tags： ［plan, job]
 ---
 
 #三月份计划

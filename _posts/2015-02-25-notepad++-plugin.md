@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Notepadd++ 插件
-catelogy: daf
+category: technology
 ---
 
 ##Notepadd++ 插件
