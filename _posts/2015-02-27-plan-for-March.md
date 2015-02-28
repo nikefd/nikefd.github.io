@@ -21,7 +21,7 @@ category: plan
 - 学好英语 （每天至少一个小时的英语）
 
 - 开始毕业设计 （每天至少两个小时）
-
+<br />
 时间安排表如下：
 
 <table width="500">
@@ -71,8 +71,9 @@ category: plan
   </tbody>
 </table>
 
+<br />
 每周有一天空闲时间自由安排
-
+<br />
 打卡表：
 
 <table width="800">
