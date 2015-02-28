@@ -24,6 +24,53 @@ category: plan
 
 时间安排表如下：
 
+<table width="500">
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: left">job</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">6:30</td>
+      <td style="text-align: left">起床了</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">7:20-11:20</td>
+      <td style="text-align: left">学习</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12:00-12:30</td>
+      <td style="text-align: left">学习</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12:30-13:00</td>
+      <td style="text-align: left">睡觉</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13:10-16:40</td>
+      <td style="text-align: left">学习</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">17:20-17:30</td>
+      <td style="text-align: left">散步</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">17:40-21:00</td>
+      <td style="text-align: left">学习</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">21:10-22:00</td>
+      <td style="text-align: left">锻炼或娱乐</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">23:00</td>
+      <td style="text-align: left">睡觉了</td>
+    </tr>
+  </tbody>
+</table>
+
  Time             |   job
 :-----------------|:-----------
 6:30              | 起床了
@@ -40,10 +87,45 @@ category: plan
 
 打卡表：
 
-3.1|3.2|3.3|3.4|3.5|3.6|3.7|3.8|3.9|3.10|3.11|3.12|3.13|3.14|3.15|3.16
-:--|:--|:--|:--|:--|:--|:--|:--|:--|:---|:---|:---|:---|:---|:---|:---
-   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |
-
-3.17|3.18|3.19|3.20|3.21|3.22|3.23|3.24|3.25|3.26|3.27|3.28|3.29|3.30|3.31
-:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---
-    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+<table width="200">
+  <thead>
+    <tr>
+      <th style="text-align: left">3.1</th>
+      <th style="text-align: left">3.2</th>
+      <th style="text-align: left">3.3</th>
+      <th style="text-align: left">3.4</th>
+      <th style="text-align: left">3.5</th>
+      <th style="text-align: left">3.6</th>
+      <th style="text-align: left">3.7</th>
+      <th style="text-align: left">3.8</th>
+      <th style="text-align: left">3.9</th>
+      <th style="text-align: left">3.10</th>
+      <th style="text-align: left">3.11</th>
+      <th style="text-align: left">3.12</th>
+      <th style="text-align: left">3.13</th>
+      <th style="text-align: left">3.14</th>
+      <th style="text-align: left">3.15</th>
+      <th style="text-align: left">3.16</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
