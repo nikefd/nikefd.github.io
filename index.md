@@ -1,19 +1,15 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 认识你自己 (γνῶθι σεαυτόν)
 ---
-{% include JB/setup %}
 
+#Who I am ?  
+<br />
 
+#Where are you from ?  
+<br />
 
-###随笔 
+#Where do you want to go ?  
+<br />
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-
-
+我不知道
