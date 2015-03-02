@@ -101,8 +101,8 @@ category: plan
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">x</td>
+      <td style="text-align: left">x</td>
       <td style="text-align: left">&nbsp;</td>
       <td style="text-align: left">&nbsp;</td>
       <td style="text-align: left">&nbsp;</td>
@@ -133,7 +133,7 @@ category: plan
       <th style="text-align: left">3.23</th>
       <th style="text-align: left">3.24</th>
       <th style="text-align: left">3.25</th>
-	  <th style="text-align: left">3.26</th>
+      <th style="text-align: left">3.26</th>
       <th style="text-align: left">3.27</th>
       <th style="text-align: left">3.28</th>
       <th style="text-align: left">3.29</th>
