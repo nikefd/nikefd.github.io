@@ -27,6 +27,22 @@ category: traveling
 
 很多事情，看着好像挺难的，之前百度出来看别人骑过的人说好像也挺难的，但是其实很多事情你自己亲身经历过，会发现原来也不是那么难。所以，以后有啥想做的事，别再纠结，别心虚，只管做好准备，然后扬帆启航吧！加油吧少年！
 
+**上图：**
+
+![Alt Road][road]
+
+![Alt Seaside][seaside]
+
+![Alt Sunset][sunset]
+
+![Alt Sunrise][sunrise]
+
+![Alt Tunnel1][tunnel1]
+
+![Alt Tunnel2][tunnel2]
+
+![Alt Tunnel3][tunnel3]
+
 最后引用乔治.马洛里的一句话：
 
 问：你们为什么要去攀登珠穆朗玛？
@@ -35,3 +51,10 @@ category: traveling
 
 下一个旅行地点：台湾
 
+[road]: /image/road.jpg
+[seaside]: /image/seaside.jpg
+[sunrise]: /image/sunrise.jpg
+[sunset]: /image/sunset.jpg
+[tunnel1]: /image/tunnel1.jpg
+[tunnel2]: /image/tunnel2.jpg
+[tunnel3]: /image/tunnel3.jpg
