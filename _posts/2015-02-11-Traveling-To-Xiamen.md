@@ -31,17 +31,31 @@ category: traveling
 
 ![Alt Road][road]
 
+一段几公里的大上坡，这是回来拍的，去的时候下坡差不多是跟在小汽车后面走的，回来的时候…嗯嗯，挺好的！
+
 ![Alt Seaside][seaside]
+
+这是在厦门海边了，远处那模糊的小岛应该是小金门了，我要骑过去了！
 
 ![Alt Sunset][sunset]
 
+鼓浪屿的日落，这渣手机只能拍成这样了…
+
 ![Alt Sunrise][sunrise]
+
+回来路上看的日出，天气很好！
 
 ![Alt Tunnel1][tunnel1]
 
+这是厦门大学里面的什么隧道，果然不是工科学校！
+
 ![Alt Tunnel2][tunnel2]
 
+厦门岛内的宽敞明亮的大隧道！
+
 ![Alt Tunnel3][tunnel3]
+
+这是回来路上的阴暗狭窄的小隧道！
 
 最后引用乔治.马洛里的一句话：
 
