@@ -8,11 +8,23 @@ category: plan
 
 要准备的工作
 
-- 复试 （每天至少五个小时）
+复试前：
+
+- 复试 （每天至少8个小时）
+
+	- 英语自我介绍
 
 	- 完成小书的题目
 
 	- 回顾做过的项目
+
+	- 复习四科基本知识
+
+- 锻炼身体 （至少两天跑一次，一次30分钟）
+
+- 学习吉他 （两天一次，一个小时左右）
+
+复试后：
 
 - 工作笔试面试 （进行至少10次面试）
 
@@ -20,7 +32,9 @@ category: plan
 
 - 学好英语 （每天至少一个小时的英语）
 
-- 开始毕业设计 （每天至少两个小时）
+- 开始毕业设计 （每天至少六个小时）
+
+- 学习吉他 （两天一次，一个小时左右）
 
 <br />
 时间安排表如下：
@@ -104,10 +118,10 @@ category: plan
       <td style="text-align: left">x</td>
       <td style="text-align: left">x</td>
       <td style="text-align: left">✓</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">x</td>
+      <td style="text-align: left">✓</td>
+      <td style="text-align: left">✓</td>
+      <td style="text-align: left">✓</td>
       <td style="text-align: left">&nbsp;</td>
       <td style="text-align: left">&nbsp;</td>
       <td style="text-align: left">&nbsp;</td>
