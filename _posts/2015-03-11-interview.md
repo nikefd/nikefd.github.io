@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 面试水经验第一波
 category: technology
 ---
