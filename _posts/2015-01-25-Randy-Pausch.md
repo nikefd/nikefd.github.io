@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Randy教授的最后一堂课观后感
 category: movie
 ---

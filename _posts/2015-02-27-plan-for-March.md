@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 三月份计划
 category: plan
 ---

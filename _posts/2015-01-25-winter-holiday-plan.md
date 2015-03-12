@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 寒假安排
 category: plan
 ---

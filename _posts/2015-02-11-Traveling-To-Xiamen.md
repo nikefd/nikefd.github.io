@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 永春骑行厦门(got it!)
 category: traveling
 ---

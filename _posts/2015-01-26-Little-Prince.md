@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 小王子读后感
 category: reading
 ---

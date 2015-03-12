@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 平凡的世界读后感（我最喜欢的一本小说之一）
 category: reading
 ---

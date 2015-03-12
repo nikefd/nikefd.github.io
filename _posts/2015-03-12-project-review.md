@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 项目经验回顾总结
 category: technology
 ---
