@@ -18,7 +18,9 @@ h1, h2, h3, h4 {
   color: #f22430;
 }
 #footer {
-  background-color: ##E0E0E0;
+  background-color: #E8E8E8;
+  height: 50px;
+  padding: 10px;
 }
 
 .body{
