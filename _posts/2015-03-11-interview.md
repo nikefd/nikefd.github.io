@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 面试水经验第一波
-category: techonology
+category: technology
 ---
 
 ###面试水经验第一波

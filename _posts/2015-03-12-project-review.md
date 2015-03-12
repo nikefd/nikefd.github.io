@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: page
 title: 项目经验回顾总结
-category: techonology
+category: technology
 ---
-
-###项目经验回顾总结
 
 ####项目一
 
