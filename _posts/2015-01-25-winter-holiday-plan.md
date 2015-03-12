@@ -3,7 +3,6 @@ layout: post
 title: 寒假安排
 category: plan
 ---
-###寒假安排
 
 - 从家里骑自行车到厦门，隔着海看看金门岛（知道成绩前完成）
 

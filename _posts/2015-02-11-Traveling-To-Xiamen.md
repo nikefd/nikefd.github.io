@@ -3,7 +3,6 @@ layout: post
 title: 永春骑行厦门(got it!)
 category: traveling
 ---
-###永春骑行厦门
 
 想了很久的厦门骑行终于结束了，写下感受哈
 

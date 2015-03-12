@@ -4,8 +4,6 @@ title: Notepadd++ 插件
 category: technology
 ---
 
-##Notepadd++ 插件
-
 主要参考：<http://www.guidingtech.com/31357/notepad-plus-plugins/>
 
 ####1. 插件一：markdown语法高亮
