@@ -120,14 +120,14 @@ category: plan
       <td style="text-align: left">✓</td>
       <td style="text-align: left">✓</td>
       <td style="text-align: left">✓</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">&nbsp;</td>
+      <td style="text-align: left">✓</td>
+      <td style="text-align: left">✓</td>
+      <td style="text-align: left">✓</td>
+      <td style="text-align: left">✓</td>
+      <td style="text-align: left">x</td>
+      <td style="text-align: left">✓</td>
+      <td style="text-align: left">x</td>
+      <td style="text-align: left">✓</td>
       <td style="text-align: left">&nbsp;</td>
     </tr>
   </tbody>
