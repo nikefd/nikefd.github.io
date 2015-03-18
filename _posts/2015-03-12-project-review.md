@@ -390,6 +390,19 @@ pandaboard下板你都做了些什么，学会了什么东西？
 
 	不愿意。
 
+中英自我介绍：  
+老师早上好/下午好。我叫章扬斌，上海同济大学计算机科学与技术专业的学生。很高兴能够参加这次面试。   
+在大学期间，我学过编译原理，计算机系统机构，数据库，计算机网络等课程并且取得了优异的成绩。我也参加过一些和web开发，计算机组成相关的项目。我对计算机体系结构方面比较感兴趣，所以我觉得有必要进一步的学习研究相关知识。  
+在空余时间，我喜欢跑步，坚持每两天跑一次步。这不仅使我保持良好的身体状态而且增强了我的耐力。我觉得科研工作也需要这些东西。在13年的时候我参加了上海国际马拉松半程的比赛并顺利的完成了比赛。除此之外，我还喜欢阅读。阅读经常能让我陷入反思，有时候也会改变我的一些想法甚至是对待人生的看法。《平凡的世界》 《三体》  
+总的来说，我是一个勤奋的学生。我喜欢尝试一些自己没做过的事情。（比如说我骑自行车去厦门，比如说uart实验是进球动画，比如说在图书馆室内偷偷种花，比如说去支教的时候早上早早先坐客车，再坐摩的跑去一个还在开发的景点，比如说晚上八点多跑去河里游泳，比说说尝试收集99个国家的生日祝福，不过至今只完成了37个）科学研究也需要不断的尝试，所以我相信我能把它做好！我做喜欢的一句话是登山家马洛里回答《纽约时报》“你为什么要攀登珠穆朗玛峰”时的回答，“因为山就在那里”   
+这就是我的自我介绍，谢谢老师！  
+Good morning/afternoon, dear professors. I am Zhang Yangbin, a student from Tongji University and my major is computer science. I am glad to be here for the interview.  
+I learned some lessons such as database, the Principle of Compiling, computer architecture and earned good grades. And I have taken part in some project relate to web development and computer organization in collage. I am interested in computer architecture, So I think further study is still urgent for me to realize self-value.  
+In my spare time, I like running. I persisted in running every two days. It not only keeps me fit but also build my endurance. I think it also be helpful to scientific research. I took part in The Shanghai International Marathon in 2013 and finished the half Marathon. In addition, I like reading. It usually make me rethink. Sometimes, It even change my attitude to life.  
+Generally speaking, I am a hard-working student. And I like to try new things. Scientific research also need keep trying. So I believe I can do it well. My favorite quote is Mollory's reply to the question "Why you want to climb Everest?" "Because it's there."   
+Ok, that's all. thanks for your attention. 
+
+
 [1]: http://nikefd.elastos.org/2015/01/19/9/    "u-boot编译"
 [2]: http://nikefd.elastos.org/2015/01/26/%E5%9C%A8u-boot%E5%9F%BA%E7%A1%80%E4%B8%8A%E5%9C%A8pandaboard%E4%B8%8A%E8%B7%91%E7%AE%80%E5%8D%95%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%88experiment-2%EF%BC%89/  "u-boot上跑自己的小程序"
 [data-path]: /image/data-path.png
