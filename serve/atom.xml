@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Nick's Blog</title>
+ <link href="http://username.github.io/" rel="self"/>
+ <link href="http://username.github.io"/>
+ <updated>2015-04-06T09:46:41+08:00</updated>
+ <id>http://username.github.io</id>
+ <author>
+   <name>nick</name>
+   <email>nikefd@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>低成本VPN翻墙攻略</title>
+   <link href="http://username.github.io/technology/2015/03/28/vpn"/>
+   <updated>2015-03-28T00:00:00+08:00</updated>
+   <id>http://username.github.io/technology/2015/03/28/vpn</id>
+   <content type="html">&lt;p&gt;现在国内外很多VPN，也有很多免费VPN但是用起来体验极差，要钱的VPN呢动辄每个月几十块我等穷ds用起来也比较心疼，最近在赵大神指导下，终于买了个国外的小服务器，自己搭了个VPN，便宜又稳定。接下来是简单教程，小白也能自己搭建翻墙啦哈哈，我也是小白!&lt;/p&gt;
+
+&lt;p&gt;步骤一：&lt;/p&gt;
+
+&lt;p&gt;申请&lt;a href=&quot;https://www.paypal.com&quot;&gt;paypal&lt;/a&gt;帐号，如果有的话就不用了或者让别人代付，这个就不详细说了&lt;/p&gt;
+
+&lt;p&gt;步骤二：&lt;/p&gt;
+
+&lt;p&gt;申请服务器，选择最便宜的服务器，一年只要$4，每个月限100G，只要不常看片应该没问题，附上网站&lt;a href=&quot;https://bandwagonhost.com/cart.php&quot;&gt;bandwagonhost&lt;/a&gt;，找到里面最便宜的付款就可以了，之后在service里点击kiwivm控制台然后就来到了服务器控制台，默认的是centos 6系统，如下图所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/vpn/control-panel.png&quot; alt=&quot;Alt panel&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Linux配置翻墙(ubuntu12.04)&lt;/p&gt;
+
+&lt;p&gt;  下载shadowsocks&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  $ sudo apt-get install python-pip
+  $ sudo pip install shadowsocks
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  之后在home目录下新建一个文件shadow.json，内容如下&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  {
+      &quot;server&quot;:&quot;45.62.104.204&quot;,
+      &quot;server_port&quot;:443,
+      &quot;local_port&quot;:10808,
+      &quot;password&quot;:&quot;******&quot;,
+      &quot;timeout&quot;:600
+  }
+
+  $ sslocal -c shadow.json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  chrome浏览器下载插件SwitchyOmega&lt;br/&gt;
+  新建proxy：socks5， 127.0.0.1， 10808&lt;br/&gt;
+  全局代理：http://heguangyu.net/wordpress/?p=48&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Android设备翻墙&lt;/p&gt;
+
+&lt;p&gt;  这个非常简单，下载Shadowsocks这个app然后修改服务器，密码，加密方法，这几项就ok了，上图&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;windows下&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>北大最后五天面试安排</title>
+   <link href="http://username.github.io/plan/2015/03/14/plan-for-intern"/>
+   <updated>2015-03-14T00:00:00+08:00</updated>
+   <id>http://username.github.io/plan/2015/03/14/plan-for-intern</id>
+   <content type="html">&lt;p&gt;任务列表：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;上机题目&lt;/li&gt;
+&lt;li&gt;改自我介绍，讲一些学过的课和项目&lt;/li&gt;
+&lt;li&gt;复习下专业课（复习两次，一次两个小时）
+
+&lt;ul&gt;
+&lt;li&gt;编译原理&lt;/li&gt;
+&lt;li&gt;计算机组成&lt;/li&gt;
+&lt;li&gt;计算机网络&lt;/li&gt;
+&lt;li&gt;数据库&lt;/li&gt;
+&lt;li&gt;计算机系统结构&lt;/li&gt;
+&lt;li&gt;操作系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;再回顾下做过的项目&lt;/li&gt;
+&lt;li&gt;准备好材料&lt;/li&gt;
+&lt;li&gt;再看看深入理解计算机系统那书吧&lt;/li&gt;
+&lt;li&gt;找王老师谈一次话&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;3月14号安排：&lt;/p&gt;
+
+&lt;p&gt;  &lt;em&gt;时间&lt;/em&gt;  ||       &lt;em&gt;安排&lt;/em&gt;
+7：10        || 起床
+8：00-9：30  || 修改自我介绍，修改下简历，填写登记表
+9：40-11：40 || 做三道上机题
+11：40-13：00|| 买装材料袋子，打印材料，包括项目经历
+13：00-13：30|| 午休
+14：00-15：20|| 开班会
+15：20-17：20|| 计算机网络
+18：00-20：00|| 计算机组成
+20：10-21：50|| 深入理解计算机系统
+22：10-23：10|| 天气好的话跑步，不好的话看看深入理解计算机系统
+23：25       || 睡觉&lt;/p&gt;
+
+&lt;p&gt;(完成)&lt;/p&gt;
+
+&lt;p&gt;3月15号安排：&lt;/p&gt;
+
+&lt;p&gt;   时间     ||       安排
+6：20        || 起床
+7：10-7：50  || 背自我介绍以及项目经验
+8：00-10：00 || 编译原理
+10：10-12：10|| 计算机系统结构
+13：00-13：30|| 午休
+13：50-15：50|| 数据库
+16：00-17：00|| 做一道上机题
+17：40-19：40|| 操作系统
+19：50-21：10|| 深入理解计算机系统
+21：10-23：10|| 天气好的话跑步，不好的话看看深入理解计算机系统加洗澡
+23：20       || 睡觉&lt;/p&gt;
+
+&lt;p&gt;3月16号安排：&lt;/p&gt;
+
+&lt;p&gt;   时间     ||       安排
+6：20        || 起床
+7：10-7：50  || 背自我介绍以及项目经验
+8：00-10：00 || 计算机网络
+10：10-12：10|| 计算机组成
+13：00-13：30|| 午休
+13：50-15：50|| 数据库
+16：00-17：00|| 做一道上机题
+17：40-19：40|| 编译原理
+19：50-21：10|| 回顾下项目经验
+22：10-23：10|| 深入理解计算机系统
+23：25       || 睡觉&lt;/p&gt;
+
+&lt;p&gt;3月17号安排：&lt;/p&gt;
+
+&lt;p&gt;   时间     ||       安排
+6：20        || 起床
+7：10-8：00  || 背自我介绍以及项目经验
+8：10-11：10 || 上机3道题
+11：20-12：00|| 回顾下做过的上机题目
+13：00-13：30|| 午休
+13：50-15：50|| 操作系统
+16：00-17：00|| 做一道上机题
+17：40-19：40|| 计算机系统结构
+19：50-21：50|| 深入理解计算机系统
+22：10-23：10|| 回顾下项目经验
+23：25       || 睡觉&lt;/p&gt;
+
+&lt;p&gt;3月18号安排：&lt;/p&gt;
+
+&lt;p&gt;   时间     ||       安排
+6：20        || 起床
+7：10-7：50  || 背自我介绍以及项目经验
+8：00-10：00 || 做一道题，回顾下上机题
+10：10-12：10|| 回顾下编译原理、计算机组成、计算机网络
+13：00-13：30|| 午休
+13：50-15：50|| 回顾下数据库、系统结构、操作系统
+16：00-17：00|| 回顾下项目经验
+17：40-20：40|| 总结一下，安排下明天干什么吧
+21：00-22：10|| 收拾东西
+22：40       || 睡觉&lt;/p&gt;
+
+&lt;p&gt;3月19号安排：&lt;/p&gt;
+
+&lt;p&gt;   时间     ||       安排
+5：20        || 起床&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>北大面试准备</title>
+   <link href="http://username.github.io/technology/2015/03/12/project-review"/>
+   <updated>2015-03-12T00:00:00+08:00</updated>
+   <id>http://username.github.io/technology/2015/03/12/project-review</id>
+   <content type="html">&lt;h3&gt;项目一（u-boot编译下板及内核加载）&lt;/h3&gt;
+
+&lt;p&gt;pandaboard下板你都做了些什么，学会了什么东西？&lt;/p&gt;
+
+&lt;p&gt;参考答案：&lt;/p&gt;
+
+&lt;p&gt;主要参考我之前写过的两篇文章&lt;a href=&quot;http://nikefd.elastos.org/2015/01/19/9/&quot; title=&quot;u-boot编译&quot;&gt;文章一&lt;/a&gt;、&lt;a href=&quot;http://nikefd.elastos.org/2015/01/26/%E5%9C%A8u-boot%E5%9F%BA%E7%A1%80%E4%B8%8A%E5%9C%A8pandaboard%E4%B8%8A%E8%B7%91%E7%AE%80%E5%8D%95%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%88experiment-2%EF%BC%89/&quot; title=&quot;u-boot上跑自己的小程序&quot;&gt;文章二&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;都做了些什么：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;对sd卡进行分区并写文件系统（用到了fdisk）&lt;/li&gt;
+&lt;li&gt;下载u-boot源码，修改配置文件，下载交叉编译器，对其进行交叉编译&lt;/li&gt;
+&lt;li&gt;将生成的u-boot镜像拷贝到sd卡中&lt;/li&gt;
+&lt;li&gt;安装超级终端kermit，修改配置文件（如通信串口，速率等信息）&lt;/li&gt;
+&lt;li&gt;下载内核以及所需要的工具链，采用对应的配置文件编译，编译好后将镜像拷贝至sd卡中&lt;/li&gt;
+&lt;li&gt;编写引导文件使内核自动引导（将内核加载到内存）&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;学会了哪些东西？&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;知道了u-boot的基本工作流程：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;首先，固化在ROM上的code初始化相应的外设，确定启动模式，读取下一阶段启动文件，即 SPL 文件（下文中的MLO，即ROM loads x-load），SPL（Second Program Loader) 由 ROM Code 加载到片上 SRAM 中。&lt;/li&gt;
+&lt;li&gt;其次，SPL负责完成最小系统，包括 ARM core，时钟系统，DDR，外设/存储设备等的初始化，在 DDR 中加载并运行 U-Boot 文件&lt;/li&gt;
+&lt;li&gt;然后，U-Boot 会在 SPL 系统配置的基础上，进一步配置包括网口，USB，Nand Flash 等外设或存储设备，之后会有3s的等待时间，若没有用户打断行为，则执行bootcmd脚本（注：定义在U-boot/include/configs/ti_omap4_common.h)，根据脚本依次查询boot.scr, uEnv.txt等文件（注：详细的自己看脚本去，可在文件中写code来load kernel），存在的话则执行文件中内容，否则跳到uboot shell界面。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;了解elf格式&lt;/p&gt;
+
+&lt;p&gt;  ELF(Executable and Linkable Format)即可执行连接文件格式。头文件可以重定位地址。
+  知道将内核加载到内存的哪个地址也是也是可以自己指定的，只要不与被占用的地址冲突。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;用gdb进行远程调试（对arm开发板上的程序进行调试）&lt;/p&gt;
+
+&lt;p&gt;  首先采用交叉编译器进行编译&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  $ qemu-system-arm -M kzm -S -s -nographic -kernel images/sel4test-driver-image-arm-imx31
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  然后运行用来调试arm结构的gdb&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  $ ./arm-none-eabi-gdb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  读取内核镜像&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  (gdb) file ~/HD-Elastos/goose/images/sel4test-driver-image-arm-imx31
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  连接目标开发板ip及端口&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  (gdb) target remote :1234
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;知道模拟器（simulation)与仿真器(emulation)与虚拟机区别&lt;/p&gt;
+
+&lt;p&gt;  simulation是模拟出原系统的一个抽象模型，而不需要真的去做真实系统要做的事情。 emulation则更进一步，要真正地去做所有真实系统能做的事情，只不过做的“过程”不同，通常是为了模拟不同指令集、不同体系架构的 CPU，所以多数情况要对微指令进行解释执行。&lt;/p&gt;
+
+&lt;p&gt;  虚拟机，或者说虚拟化技术 virtualization，基本都是去模拟一套相同指令集相同架构的硬件平台，因此在做好保护的前提下，很多时候可以直接利用 CPU 去执行目标指令。虽然还是模拟物理 CPU 而不借助于 Host OS 的功能，毕竟少了一层指令集转换，运行速度会提高不少。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;知道编译的时候可以自己写链接脚本指定代码段的地址以及数据段的地址&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;微内核与宏内核区别&lt;/p&gt;
+
+&lt;p&gt;  宏内核结构在硬件之上，定义了一个高阶的抽象界面，应用一组原语（或者叫系统调用（System call））来实现操作系统的功能，例如进程管理，文件系统，和存储管理等等，这些功能由多个运行在核心态的模块来完成。&lt;/p&gt;
+
+&lt;p&gt;  微内核考虑在操作系统的内核中保留操作系统最基本的功能，也就是任务调度、内存和设备的抽象和管理。其他的功能全部从内核移出，放到用户态中了实现，并以C/S模式对其他应用程序提供服务。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt; 用到了哪些工具：fdisk工具（分区、格式化等），编译所需的工具链&lt;/p&gt;
+
+&lt;p&gt; 解决了什么问题：编写操作文档，帮助别人更快的下板&lt;/p&gt;
+
+&lt;h3&gt;项目二（DreamWhere网站开发）&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;完成的功能&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;注册登录&lt;/li&gt;
+&lt;li&gt;设定旅游目标&lt;/li&gt;
+&lt;li&gt;书写奋斗历程&lt;/li&gt;
+&lt;li&gt;查看成功经历&lt;/li&gt;
+&lt;li&gt;分享成功经历&lt;/li&gt;
+&lt;li&gt;查看别人分享的成功经历&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;解决了什么问题：&lt;/p&gt;
+
+&lt;p&gt;  针对年轻人空有说走就走的旅行想法却很少实施的现状，开发一个能够激发年轻人对旅游的向往并为之实践奋斗的网站显得尤为必要。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;主要用到了哪些方法(人机交互的一些方法)：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;编写用户引导&lt;/li&gt;
+&lt;li&gt;尽量以图片的形式来展示&lt;/li&gt;
+&lt;li&gt;采用尽量少的层级结构，可以快速的到达任何一个界面&lt;/li&gt;
+&lt;li&gt;费次定律：屏幕边缘具有无限大的尺寸，按钮放边上；较小目标需要设置外边界，；有时，界面元素越小越好，比如删除按钮。&lt;/li&gt;
+&lt;li&gt;用撤销取代对用户的干扰&lt;/li&gt;
+&lt;li&gt;可发现性&lt;/li&gt;
+&lt;li&gt;超链接变颜色&lt;/li&gt;
+&lt;li&gt;提供搜索功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;blockquote&gt;&lt;p&gt;费茨法则：是一个人机互动以及人体工程学中人类活动的模型，它预测了快速移动到目标区域所需的时间是目标区域的距离和目标区域的大小的函数。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;用到了什么工具：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;界面设计Balsamiq  [bɔl'sæmik] Mockups，是一种软件工程中快速原型的建立软件，可以做为与用户交互的一个界面草图，一旦客户认可可以做为美工开发HTML的原型使用。&lt;/li&gt;
+&lt;li&gt;数据库mysql，服务器apache，后台实现php，前台bootstrap框架，jquery库，phpmyadmin。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;学到了什么东西？&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;小网站从前台到后台的开发建立过程及基本结构&lt;/li&gt;
+&lt;li&gt;增加动手实践能力，编程能力&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;项目三（单周期mips cpu开发）&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/data-path.png&quot; alt=&quot;Alt data-path&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;开发板：基于Spartan-6的由Digilent（德致伦）公司研发的Nexys3开发板&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;都做了什么&lt;/p&gt;
+
+&lt;p&gt; 从最简单的程序计数器、数据选择器等开始学习编写，完成一个一个简单模块，然后调用小模块完成大一点的模块，比如Alu模块里面就包含了选择器、加法器、移位器等，最后把各个模块连接起来，就组成了一个简单的mips单周期cpu，进行测试下板。&lt;br/&gt;
+ 最顶层的分为指令存储器模块、数据存储器模块、接口模块，然后Alu和指令译码器等其他的我都放在了另外一个模块里面，还有一个时钟分频器。指令存储器是用ip核实现的。&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;ip核：指某一方提供的、形式为逻辑单元、芯片设计的可重用模块。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt; 采用统一编址的方法，就是把传出来的指令地址进行分析，输入对应的控制信号，决定把数据传到哪里去。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;学到了什么东西&lt;/p&gt;
+
+&lt;p&gt; 简单的cpu的基本架构、数据之前的传输方式，以及具体工作方式。比如说输入一条指令，具体是怎么进行译码，怎么进行执行的等等。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;用到了哪些工具&lt;/p&gt;
+
+&lt;p&gt; modelsim、MARS(the Mips Assembly and Runtime Simulator)Mips 汇编程序运行模拟器、Logisim（设计和模拟数字逻辑电路的辅助教学软件)、Xilinx ISE&lt;/p&gt;
+
+&lt;p&gt; FPGA（Field－Programmable Gate Array），即现场可编程门阵列&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;简单理一下cpu工作的大致流程&lt;/p&gt;
+
+&lt;p&gt; 首先，初始化的时候pc值为0，将pc值传入指令存储器之后，输出32位的指令，根据不同指令进行不同处理。指令大致分为三种，寄存器型，立即数型和Jump型。&lt;br/&gt;
+ rs、rt表示源寄存器号，rd表示目的寄存器号。shamt存放短立即数，移位指令用到了。s - source，t - target，d - destination&lt;br/&gt;
+ 简单说一下比如说执行add $1, $2这条指令，指令格式就是&lt;/p&gt;
+
+&lt;p&gt; ||31..26||25..21||20..16||15..11||10..6||5..0||
+ ||op||rs||rt||rd||shamt||func||
+ ||000000||rs||rt||rd||0||100000||&lt;/p&gt;
+
+&lt;p&gt; 首先，把操作码传到指令译码器，再传到微操作序列产生部件产生相应的控制信号，把rs、rt、rd传到寄存器堆，寄存器堆把rs、rt值传到alu进行运算，运算结果写回到rd。然后pc寄存器加1。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;项目四（上创项目：智能手机平台上的统筹学习规划管理研究与实现）&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;领域：移动应用开发&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;为什么做这个？&lt;/p&gt;
+
+&lt;p&gt; 在目前市面上的移动应用，缺少一个方便快捷的综合性学习软件应用，大多数软件都只有比较单一的功能，使用起来不是很方便，所以我们致力于开发一个学习一体化的手机应用。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;解决什么问题：1）自我学习规划  2）实时便捷记录  3）在线讨论&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;主要负责哪些模块？&lt;/p&gt;
+
+&lt;p&gt; 主要负责自我学习规划这一模块。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;实现了什么功能？&lt;/p&gt;
+
+&lt;p&gt; 分为三个小版块：1、旋转时间；2、今天时光； 3、时间轴。
+ 旋转时间：&lt;br/&gt;
+ 选择类型：分为工作、学习、休息、娱乐四种类型，触摸屏幕旋转选择时间，写上标题，然后点击开始进行倒计时。&lt;br/&gt;
+ 今天时光：&lt;br/&gt;
+ 旋转时间里进行的都会以记录在这个板块,以饼状图的形式直观的显示出来，然后再今日时光里可以写日记。&lt;br/&gt;
+ 时间轴：&lt;br/&gt;
+ 在这里记录着之前每天你在各个类型上所花的时间，点击可以查看日记内容。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;介绍一下你的项目开发流程&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;首先了解关于android开发的基本知识&lt;/li&gt;
+&lt;li&gt;然后思考都要完成什么功能&lt;/li&gt;
+&lt;li&gt;设计基本界面&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;寻找相应的解决方法及所需要的技术&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;记录计划需要数据库支持（sqlite）&lt;br/&gt;
+Android 在运行时（run-time）集成了 SQLite，所以每个 Android 应用程序都可以使用 SQLite 数据库。直接使用API就可以了。&lt;br/&gt;
+数据库很简答，只有一个表，包含了时间，周几，note，类型几个表项。&lt;/li&gt;
+&lt;li&gt;旋转时间实现&lt;br/&gt;
+获取手机分辨率，通过获取屏幕上面的触摸点，构造相应的函数来实现，具体实现方式不记得了，借鉴了网上的实现方法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;编码实现&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;基本界面的实现&lt;/li&gt;
+&lt;li&gt;数据库&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;用到了哪些技术？&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;用到了什么工具：&lt;/p&gt;
+
+&lt;p&gt;  Java Development Kit（JDK）、Eclipse, Android SDK(软件开发工具包:Software Development Kit）、Android Development Tools (ADT)、 SQLite Manager（firefox上的一个扩展插件，用来管理sqlite）&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;关于简历可能提的问题：&lt;/h3&gt;
+
+&lt;p&gt;能力：熟悉基本的数据结构及算法，熟悉C++语言、Linux，了解verilog、c、html、git、python、java等，英语六级&lt;/p&gt;
+
+&lt;p&gt;基本数据结构：&lt;/p&gt;
+
+&lt;p&gt;抽象数据类型（Abstract Data Type)是指一个数学模型以及定义在该模型上的一组操作&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数组（Array）：一个数组类型描述了连续分配的非空的具有特定元素对象类型的对象集合。&lt;/li&gt;
+&lt;li&gt;堆栈（Stack）：是一个对象容器，插入对象和删除对象按照后进先出的原则。 &lt;br/&gt;
+  使用：过程调用或递归&lt;/li&gt;
+&lt;li&gt;队列（Queue）：也是一个对象容器，按照先进先出（FIFO, First-In-First-Out）的原则。队列只允许在后端（称为rear）进行插入操作，在前端（称为front）进行删除操作。&lt;br/&gt;
+  使用：多道程序设计，进程调度&lt;/li&gt;
+&lt;li&gt;链表（Linked List）：是一种常见的基础数据结构，是一种线性表，但是并不会按线性的顺序存储数据，而是在每一个节点里存到下一个节点的指针(Pointer)。&lt;/li&gt;
+&lt;li&gt;树（Tree）：是一种分层存储元素的抽象数据类型。&lt;br/&gt;
+  使用：比如文件系统就是树形结构的&lt;/li&gt;
+&lt;li&gt;图（Graph）：是表示物件与物件之间的关系的方法，是图论的基本研究对象。包括简单图/多重图;有向图/无向图等。&lt;br/&gt;
+  图的数据结构：1、邻接表；2、邻接矩阵；3、边表结构
+  使用：很多，比如研究交通网络等等&lt;/li&gt;
+&lt;li&gt;堆（Heap）：实际上是二叉树的一种，将关键字集合存储在其内部结点中，叶子结点没有数据，符合一定的性质。比如最大堆的话满足内部结点结点值大于子结点值，且为完全树。&lt;br/&gt;
+  使用：主要用于实现优先队列&lt;/li&gt;
+&lt;li&gt;散列表（Hash）：（Hash table，也叫哈希表），是根据关键字（Key value）而直接访问在内存存储位置的数据结构。也就是说，它通过把键值通过一个函数的计算，映射到表中一个位置来访问记录，这加快了查找速度。这个映射函数称做散列函数，存放记录的数组称做散列表。&lt;br/&gt;
+  冲突处理方法：1、线性探测法；2、再散列法 等等&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;基本算法：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;枚举：列出某些有穷序列集的所有成员&lt;/li&gt;
+&lt;li&gt;搜索
+
+&lt;ul&gt;
+&lt;li&gt;深度优先搜索：沿着树的深度遍历树的节点，尽可能深的搜索树的分支。当节点v的所有边都己被探寻过，搜索将回溯到发现节点v的那条边的起始节点。&lt;/li&gt;
+&lt;li&gt;广度优先搜索：从根节点开始，沿着树的宽度遍历树的节点。如果所有节点均被访问，则算法中止。&lt;/li&gt;
+&lt;li&gt;启发式搜索：&lt;br/&gt;
+A星算法：在图形平面上，有多个节点的路径，求出最低通过成本的算法。&lt;br/&gt;
+g(n)表示从起点到任意顶点n的实际距离，h(n)表示任意顶点n到目标顶点的估算距离，那么 A星算法的公式为：f(n)=g(n)+h(n)。 这个公式遵循以下特性：&lt;br/&gt;
+如果h(n)为0，只需求出g(n)，即求出起点到任意顶点n的最短路径，则转化为单源最短路径问题，即Dijkstra算法&lt;br/&gt;
+如果h(n)&amp;lt;=“n到目标的实际距离”，则一定可以求出最优解。而且h(n)越小，需要计算的节点越多，算法效率越低。&lt;br/&gt;
+比如八数码估值函数就是采用了每一步移到正确的位置需要的步数&lt;/li&gt;
+&lt;li&gt;遗传算法：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;数据结构的算法&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;图论的算法&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;哈夫曼编码：&lt;br/&gt;
+霍夫曼树又称最优二叉树，在计算机数据处理中，霍夫曼编码使用变长编码表对源符号（如文件中的一个字母）进行编码，其中变长编码表是通过一种评估来源符号出现机率的方法得到的，出现机率高的字母使用较短的编码，反之出现机率低的则使用较长的编码，这便使编码之后的字符串的平均长度、期望值降低，从而达到无损压缩数据的目的。&lt;/li&gt;
+&lt;li&gt;树的遍历：前序中序后序，深度广度&lt;/li&gt;
+&lt;li&gt;最短路径算法：&lt;br/&gt;
+确定起点的最短路径问题（适合用Dijkstra算法）：从V-S中选出Vj满足V0到Vj最短，将Vj加入S，修改V0至V-S任一顶点可达的最短路径长度，直到所有顶点都在V中。&lt;br/&gt;
+全局最短路径问题（适合Floyd-Warshall 弗洛伊德算法）：逐步尝试在原路径中加入顶点k（k=0,1,2，...，n-1）作为中间顶点。&lt;/li&gt;
+&lt;li&gt;最小生成树算法：&lt;br/&gt;
+普利姆算法（prim）：初始化：Vnew = {x}，其中x为集合V中的任一节点（起始点），Enew = {}；&lt;br/&gt;
+重复下列操作，直到Vnew = V：&lt;br/&gt;
+1.在集合E中选取权值最小的边（u, v），其中u为集合Vnew中的元素，而v则是V中没有加入Vnew的顶点（如果存在有多条满足前述条件即具有相同权值的边，则可任意选取其中之一）；
+2.将v加入集合Vnew中，将（u, v）加入集合Enew中；&lt;br/&gt;
+克鲁斯卡尔算法（Kruskal）：每次选取权值最小的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;分治法：把问题划分为一个或多个更小的子问题。递归地求解每个问题。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;贪心算法：&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;动态规划：若要解一个给定问题，我们需要解其不同部分（即子问题），再合并子问题的解以得出原问题的解。通常许多子问题非常相似，为此动态规划法试图仅仅解决每个子问题一次，从而减少计算量： 一旦某个给定子问题的解已经算出，则将其记忆化存储，以便下次需要同一个子问题解之时直接查表。 这种做法在重复子问题的数目关于输入的规模呈指数增长时特别有用。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;加密算法：&lt;/p&gt;
+
+&lt;p&gt;  对称加密：将信息使用一个密钥进行加密，解密时使用同样的密钥，同样的算法进行解密。&lt;br/&gt;
+  数据加密标准（DES，Data Encryption Standard）
+  高级加密标准（AES, Advanced Encryption Standard）&lt;/p&gt;
+
+&lt;p&gt;  非对称加密：又称公开密钥加密，是加密和解密使用不同密钥的算法，广泛用于信息传输中。&lt;br/&gt;
+  RSA加密算法&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;排序算法&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;插入排序&lt;br/&gt;
+直接插入排序：将L2~Ln一次插入到前面已排好序的子序列中（从后往前查找）&lt;br/&gt;
+折半插入排序：通过折半查找来确定插入位置&lt;br/&gt;
+希尔排序：先将排序表分割成若干个形如L[i, i+d, i+2d, ..., i+kd]（d越来越小）的特殊子表，分别进行插入排序，当整个表中元素已基本有序时，再对全体进行一次直接插入排序。&lt;/li&gt;
+&lt;li&gt;交换排序  &lt;br/&gt;
+冒泡排序O(n2):它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换。&lt;br/&gt;
+快速排序O(n log n):在待排序表中任取一个元素作为基准，将其划分为独立的两部分后递归重复，直至每部分内只有一个元素或空。（以第一个元素为基准，首先从后往前扫描比基准小的元素，两者元素对换，再从前往后扫描比基准大的元素，与基准对换，以此类推）&lt;/li&gt;
+&lt;li&gt;选择排序&lt;br/&gt;
+简答选择排序：首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。以此类推，直到所有元素均排序完毕。&lt;br/&gt;
+堆排序O(n log n):个近似完全二叉树的结构，满足子结点的键值或索引总是小于（或者大于）它的父节点。排序时一次对n/2~1各节点进行筛选。&lt;/li&gt;
+&lt;li&gt;归并排序O(n log n)&lt;br/&gt;
+两路归并排序：n个记录看成n个子表，两两合并，再两两合并，直到合成一个长度为n的有序表。&lt;/li&gt;
+&lt;li&gt;基数排序O(n):不是基于比较，而是采用多关键字思想，借助“分配”和“收集”两种操作对单逻辑关键字进行排序。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;并行算法：并行算法就是用多台处理机 联合求解问题的方法和步骤,其执行过程是将给定的问题首先分解成若干个尽量相互独立的子问 题,然后使用多台计算机同时求解它,从而最终求得原问题的解.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;什么是Linux？&lt;/p&gt;
+
+&lt;p&gt;  Linux是一种自由和开放源代码的类UNIX操作系统。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;什么是python？&lt;/p&gt;
+
+&lt;p&gt;  python是一种面向对象、解释型的计算机程序设计语言。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;什么是git？&lt;/p&gt;
+
+&lt;p&gt;  Git是一个分布式版本控制／软件配置管理软件，原是Linux内核开发者林纳斯·托瓦兹（Linus Torvalds）为更好地管理Linux内核开发而设计。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;和毕业设计有关的问题&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;websocket和ajax比优点，为什么使用websocket？&lt;/p&gt;
+
+&lt;p&gt;  传统的请求-响应模式的 Web 开发在处理实时要求高、海量并发的应用通常采用实时通讯方案：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;轮询，原理简单易懂，就是客户端通过一定的时间间隔以频繁请求的方式向服务器发送请求，来保持客户端和服务器端的数据同步。问题很明显，当客户端以固定频率向服务器端发送请求时，服务器端的数据可能并没有更新，带来很多无谓请求，浪费带宽，效率低下。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;基于 Flash，AdobeFlash 通过自己的 Socket 实现完成数据交换，再利用 Flash 暴露出相应的接口为 JavaScript 调用，从而达到实时传输目的。此方式比轮询要高效，且因为 Flash 安装率高，应用场景比较广泛，但在移动互联网终端上 Flash 的支持并不好。IOS 系统中没有 Flash 的存在，在 Android 中虽然有 Flash 的支持，但实际的使用效果差强人意，且对移动设备的硬件配置要求较高。2012 年 Adobe 官方宣布不再支持 Android4.1+系统，宣告了 Flash 在移动终端上的死亡。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;  WebSocket 机制：&lt;br/&gt;
+  以下简要介绍一下 WebSocket 的原理及运行机制。&lt;br/&gt;
+  WebSocket 是 HTML5 一种新的协议。它实现了浏览器与服务器全双工通信，能更好的节省服务器资源和带宽并达到实时通讯，它建立在 TCP 之上，同 HTTP 一样通过 TCP 来传输数据，但是它和 HTTP 最大不同是：&lt;br/&gt;
+  WebSocket 是一种双向通信协议，在建立连接后，WebSocket 服务器和 Browser/Client Agent 都能主动的向对方发送或接收数据，就像 Socket 一样；&lt;br/&gt;
+  WebSocket 需要类似 TCP 的客户端和服务器端通过握手连接，连接成功后才能相互通信。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;非技术性问题&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;你为什么报考这个学校？&lt;/p&gt;
+
+&lt;p&gt;  首先，因为北京大学是世界上最好的学校之一，我想感受一下国际一流学校和国内一流学校有什么差别。&lt;br/&gt;
+  然后，我个人挺喜欢人文思想的，我觉得北京大学是我们国家自由思想人文思想最浓厚的学校。而且北京大学自从建校以来，就担任着社会发展改革的带头作用，北京大学是新文化运动的中心、五四运动的策源地。还有最近在热播的电视剧，《历史转折中的邓小平》中看到，也是北大的师生首先冒着生命危险否定了两个凡是。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;你为什么报考这个专业？&lt;/p&gt;
+
+&lt;p&gt;  因为我本身对系统结构方面比较感兴趣，系统结构指的是计算机系统设计的观念与架构，描述计算机在实做的设计原则。之前我看过一本小说，《黑客与画家》，里面讲到了黑客与画家，两个职业看起来虽然好像毫不相关，但是却又有着本质上的共性，他们都是艺术家，设计师，只不过设计的东西不一样。我觉得研究系统结构方面的人也和画家一样，他们也是一群杰出的艺术家，不过他们更加低调。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;简单说一下你对报考这个方向的认识。&lt;/p&gt;
+
+&lt;p&gt;  早在60年代麦卡锡(John McCarthy)就提出了把计算能力作为一种象水和电一样的公用事业提供给用户。云计算的第一个里程碑是，1999年Salesforce.com提出的通过一个网站向企业提供企业级的应用的概念。&lt;br/&gt;
+  云计算是一种基于互联网的计算方式，通过这种方式，共享的软硬件资源和信息可以按需求提供给计算机和其他设备。云计算有很多的形式，比如说软件即服务（saas，这种类型的云计算通过浏览器把程序传给成千上万的用户）平台即服务（Paas这种形式的云计算把开发环境作为一种服务来提供）基础设施即服务（Iaas，把IT基础设施作为一种服务通过网络提供，以服务的形式提供虚拟硬件资源，包括服务器、存储、网络等)。&lt;br/&gt;
+  一重门：安全&lt;br/&gt;
+　　 安全问题是云计算所面临的第一大问题，在这里，技术的挑战与机制和意识的挑战并存。首先，在技术方面，按照Google的理念，如果云计算得以实现的话，那么未来人们在本地硬盘上几乎不保存数据,所有的数据在云里,一旦发生由于技术方面的因素导致的服务中断,那么用户只能束手无策。&lt;br/&gt;
+　　 二重门：人才&lt;br/&gt;
+　　 云计算的提倡者基本来自企业，但业界官员和计算机科学家表示，人才的匮乏可能会限制云计算技术未来的增长。目前，即使是美国最久负盛名的大学也很难找到提供云计算所需要的所有技术培训。 云计算是分布式计算，但是目前许多应用软件并不是为分布式计算而写，导致其在云计算中也难以应用。&lt;br/&gt;
+　　 三重门：标准&lt;br/&gt;
+  云计算的产业化步伐很快，各大企业投入了很多力量发展云计算产品。但是推动云计算的发展必须要有开  放的公共标准，包括基础设施价格、网络和互联网应用等都需要基于开放标准，这样才能使得用户尽情享受云计算应用和服务。&lt;/p&gt;
+
+&lt;p&gt;  云计算的几个特性，包括资源共享，快速部署，容易管理。这些特性的实现一般都会使用虚拟化技术。但是云计算不一定使用虚拟化，其中Iaas使用最多。&lt;br/&gt;
+  虚拟化（英语：Virtualization）是一种资源管理技术，是将计算机的各种实体资源，如服务器、网络、内存及存储等，予以抽象、转换后呈现出来，打破实体结构间的不可切割的障碍，使用户可以比原本的配置更好的方式来应用这些资源。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;说说你对科学研究的看法？&lt;/p&gt;
+
+&lt;p&gt;  从字面上的意思来理解呢，科学研究分为两个阶段，初级阶段主要是了解别人的成果,然后分析他们的优点和不足,做出改进,或者得出更加简洁的方法,这个阶段要多多阅读和涉猎。比较高级的阶段呢，就是发掘新的思路寻找新的方向,尝试一些从来没有人做过的一些东西，这个阶段要有很好的基础,有一定的科研经验，而且一次次的失败也是在所难免的。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;举例说明科学研究都都哪些领域或方向？&lt;/p&gt;
+
+&lt;p&gt;  计算机系统结构方向的话比如说&lt;br/&gt;
+  分布式计算，主要研究分散系统（Distributed system）如何进行计算。分散系统就是一组电子计算机（computer），通过计算机网络相互链接传递消息与通信后并协调它们的行为而形成的系统。&lt;br/&gt;
+  高效能计算（主要解决大规模科学问题的计算和海量数据的处理，如科学研究、气象预报、计算模拟、军事研究、CFD/CAE、生物制药、基因测序、图像处理等等）等等。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;大一大二成绩不够突出，分析过原因吗？&lt;/p&gt;
+
+&lt;p&gt;  大一的时候因为刚买电脑，自制力比较差，花了大量的时间在游戏上面，所以成绩一下子就变差了。然后我们学校是大二的时候军训，军训结束之后就开始不玩游戏了。大二的时候把挺多时间花在学习之外的一些事情上，比如说做兼职，考驾照，旅游等等，除了晚上基本上都不呆在宿舍，所以花在学习上面的时间也不是很多。大二暑假的时候参加了支教活动，去贵州遵义的一个小镇支教了两个礼拜，那次支教对我来说影响挺大的。回来之后大三学年，我就把大部分时间都花在了学习上面了。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;你喜欢你的专业吗？&lt;/p&gt;
+
+&lt;p&gt;  喜欢，首先，我觉得计算机这一个专业以已经是我们这个社会各个领域不可或缺的一个专业了，在计算机相关岗位上，我能够发挥比较大的社会价值。&lt;br/&gt;
+  然后，我觉得计算机的一些算法思想，对我看待事情的思维方式，帮助挺大的，遇到一些事情，我就比较喜欢用算法思想稍微分析一下。之前看过一篇文章，讲的程序算法与人生选择。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;排序算法&lt;br/&gt;
+比如说面临一些选择的时候，可以参考下排序算法，首先参考冒泡排序，把所有的选择都列出来，如果只选出一个最重要的，你会选哪一个？当一个一个过滤的时候，我就知道应该选择什么了。这个算法告诉我们，人的杂念越少，就越容易做出选择。&lt;br/&gt;
+当茫然到不知道怎么比较两个决策因子大小的时候怎么办呢，可以参考下快速排序，一开始我们不需要找到最大的数，只要有一个标准，所以先把价值观中的某个标准拿出来，满足的放在右边，不满足的放在左边，在调整这个标准继续递归下去。这个算法告诉我们，我们的选择标准越清晰，我们就越容易做出选择。&lt;br/&gt;
+排序算法的核心思想就是，让你帮助你认清自己最需要的是什么，认清自己最想要的是什么，然后根据这个去做选择。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;贪婪算法&lt;br/&gt;
+是一种在每一步选择中都采取在当前状态下最好或最优（即最有利）的选择（注意：是当前状态下），从而希望导致结果是最好或最优的算法。&lt;br/&gt;
+对于人类，一般人在行为处事的时候都会采用贪婪算法，比如说找零钱，找36，我们会按照这样的顺序找，20,10,5,1。&lt;br/&gt;
+过十字路口对角线&lt;br/&gt;
+对于选择中，大多数人都会选用贪婪算法，因为这是一个比较简单的算法，未来太复杂了，只能走一步看一步，在当前的状况下做出最利于自己的判断和选择即可。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;动态规划&lt;br/&gt;
+但是我们知道，对于大部分的问题，贪婪法通常都不能找出最优解，因为他们一般没有测试所有可能的解。因为贪婪算法是一种短视的行为，只会跟据当前的形式做判断，也就是过早做决定，因而没法达到最佳解。&lt;br/&gt;
+动态规划至少告诉了我们两点&lt;br/&gt;
+1）承前启后非常重要，当你准备去做遍历的时候，你的上次的经历不但能开启你以后的经历，而且还能为后面的经历所用。你的每一步都没有浪费。&lt;br/&gt;
+2）是否可以回退也很重要。这意思是——如果你面前有两个选择，一个是A公司一个是B公司，如果今天你选了A公司，并不是你完全放弃了B公司。而是，你知道从A公司退出来去B公司，会比从B公司退出来去A公司要容易一些。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dijkstra最短路径&lt;br/&gt;
+经典算法，是一个贪婪+动态规划的算法&lt;br/&gt;
+1）在初始化的时候，所有的结点都和我是无穷大，默认是达不到的。&lt;br/&gt;
+2）从离自己最近的结点开始贪婪。&lt;br/&gt;
+3）走过去，看看又能到达什么样的结点，计算并更新到所有目标点的距离。&lt;br/&gt;
+4）再贪婪与原点最短的结点，如此反复。&lt;br/&gt;
+比如说我想成为一个架构师，但是这对于我来说，目前的距离是无穷大，把它们放在心里就可以了，先看看能够够着的东西。而我现在要做的就是把我看得见的在身边的东西干好。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;blockquote&gt;&lt;p&gt;系统架构师（System Architect，简称SA或SAr），是在信息系统研发中，负责依据需求来确定主要的技术选择、设计系统的主体框架结构，并负责搭建实施的人。 他们（与系统分析师共同）确立系统的主体架构和实现方向，并负责指导软件工程师等开发人员的编码开发工作。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;算法就是Trade-Off&lt;br/&gt;
+任何的选择都意味着放弃——当你要去获得一个东西的时候，你总是需要放弃一些东西。就像我们编程用到的以时间换空间，以空间换时间的想法。&lt;br/&gt;
+每个人都有每个人的算法，每个算法都有每个算法的purpose，就算每个人都在用同样的算法，结果也会不一样。&lt;br/&gt;
+我们每个人的算法决定了我们的选择，我们的选择决定了我们的人生。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;你有什么特长？&lt;/p&gt;
+
+&lt;p&gt;  跑步，这应该也算是我的爱好吧，我比较擅长长跑，大学1000米测试可以拿满分。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;你是否愿意接受调剂？&lt;/p&gt;
+
+&lt;p&gt;  不愿意。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;中英自我介绍：&lt;br/&gt;
+老师早上好/下午好。我叫章扬斌，上海同济大学计算机科学与技术专业的学生。很高兴能够参加这次面试。 &lt;br/&gt;
+在大学期间，我学过编译原理，计算机系统机构，数据库，计算机网络等课程并且取得了优异的成绩。我也参加过一些和web开发，计算机组成相关的项目。我对计算机体系结构方面比较感兴趣，所以我觉得有必要进一步的学习研究相关知识。&lt;br/&gt;
+在空余时间，我喜欢跑步，坚持每两天跑一次步。这不仅使我保持良好的身体状态而且增强了我的耐力。我觉得科研工作也需要这些东西。在13年的时候我参加了上海国际马拉松半程的比赛并顺利的完成了比赛。除此之外，我还喜欢阅读。阅读经常能让我陷入反思，有时候也会改变我的一些想法甚至是对待人生的看法。《平凡的世界》 《三体》&lt;br/&gt;
+总的来说，我是一个勤奋的学生。我喜欢尝试一些自己没做过的事情。（比如说我骑自行车去厦门，比如说uart实验是进球动画，比如说在图书馆室内偷偷种花，比如说去支教的时候早上早早先坐客车，再坐摩的跑去一个还在开发的景点，比如说晚上八点多跑去河里游泳，比说说尝试收集99个国家的生日祝福，不过至今只完成了37个）科学研究也需要不断的尝试，所以我相信我能把它做好！我做喜欢的一句话是登山家马洛里回答《纽约时报》“你为什么要攀登珠穆朗玛峰”时的回答，“因为山就在那里” &lt;br/&gt;
+这就是我的自我介绍，谢谢老师！&lt;br/&gt;
+Good morning/afternoon, dear professors. I am Zhang Yangbin, a student from Tongji University and my major is computer science. I am glad to be here for the interview.&lt;br/&gt;
+I learned some lessons such as database, the Principle of Compiling, computer architecture and earned good grades. And I have taken part in some project relate to web development and computer organization in collage. I am interested in computer architecture, So I think further study is still urgent for me to realize self-value.&lt;br/&gt;
+In my spare time, I like running. I persisted in running every two days. It not only keeps me fit but also build my endurance. I think it also be helpful to scientific research. I took part in The Shanghai International Marathon in 2013 and finished the half Marathon. In addition, I like reading. It usually make me rethink. Sometimes, It even change my attitude to life.&lt;br/&gt;
+Generally speaking, I am a hard-working student. And I like to try new things. Scientific research also need keep trying. So I believe I can do it well. My favorite quote is Mollory's reply to the question &quot;Why you want to climb Everest?&quot; &quot;Because it's there.&quot; &lt;br/&gt;
+Ok, that's all. thanks for your attention.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>一些git命令</title>
+   <link href="http://username.github.io/technology/2015/03/12/git"/>
+   <updated>2015-03-12T00:00:00+08:00</updated>
+   <id>http://username.github.io/technology/2015/03/12/git</id>
+   <content type="html">&lt;p&gt;记录一下自己学习的一些git命令&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;从远程仓库进行更新&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  $ git fetch origin
+  $ git merge origin/master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  为什么不用git的pull，参考 &lt;a href=&quot;http://www.oschina.net/translate/git-fetch-and-merge&quot;&gt;Git 少用 Pull 多用 Fetch 和 Merge&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;把你的变更推送到一个远程仓库&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  $ git push origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>面试水经验第一波</title>
+   <link href="http://username.github.io/technology/2015/03/11/interview"/>
+   <updated>2015-03-11T00:00:00+08:00</updated>
+   <id>http://username.github.io/technology/2015/03/11/interview</id>
+   <content type="html">&lt;h3&gt;蚂蚁金服电话面试（软件工程师）&lt;/h3&gt;
+
+&lt;p&gt;今天还在准备考研复试，突然就接到了电话面试…一点准备都没有，然后果断悲剧了，以下参考答案为面试结束后自己上网查阅总结的，不一定正确。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;什么是MVC？&lt;/p&gt;
+
+&lt;p&gt;  参考答案：&lt;/p&gt;
+
+&lt;p&gt;  MVC（Model-View-Controller）是软件工程中的一种软件架构模式，把软件系统分为三个基本部分：模型（Model）、视图（View）和控制器（Controller）。&lt;/p&gt;
+
+&lt;p&gt;  （控制器 Controller）- 负责转发请求，对请求进行处理。&lt;/p&gt;
+
+&lt;p&gt;  （视图 View） - 界面设计人员进行图形界面设计。&lt;/p&gt;
+
+&lt;p&gt;  （模型 Model） - 程序员编写程序应有的功能（实现算法等等）、数据库专家进行数据管理和数据库设计(可以实现具体的功能)。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;TCP和UDP区别&lt;/p&gt;
+
+&lt;p&gt;  参考答案：&lt;/p&gt;
+
+&lt;p&gt;  TCP（Transmission Control Protocol，传输控制协议）是基于连接的协议，也就是说，在正式收发数据前，必须和对方建立可靠的连接。&lt;/p&gt;
+
+&lt;p&gt;  其中TCP提供IP环境下的数据可靠传输，它提供的服务包括数据流传送、可靠性、有效流控、全双工操作和多路复用。通过面向连接、端到端和可靠的数据包发送。通俗说，它是事先为所发送的数据开辟出连接好的通道，然后再进行数据发送。&lt;/p&gt;
+
+&lt;p&gt;  TCP支持的应用协议主要有：Telnet（TCP/IP协议族中的一员，是Internet远程登陆服务的标准协议和主要方式）、FTP（文件传输协议）、SMTP（简单邮件传输协议）等。&lt;/p&gt;
+
+&lt;p&gt;  UDP（User Data Protocol，用户数据报协议）是与TCP相对应的协议。它是面向非连接的协议，它不与对方建立连接，而是直接就把数据包发送过去！&lt;/p&gt;
+
+&lt;p&gt;  UDP适用于一次只传送少量数据、对可靠性要求不高的应用环境。&lt;/p&gt;
+
+&lt;p&gt;  UDP支持的应用层协议主要有：NFS（网络文件系统）、SNMP（简单网络管理协议）、DNS（主域名称系统）、TFTP（通用文件传输协议）等。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;进程和线程的区别&lt;/p&gt;
+
+&lt;p&gt;  参考答案：&lt;/p&gt;
+
+&lt;p&gt;  先来点不知道专不专业的解释：&lt;/p&gt;
+
+&lt;p&gt;  进程：是进程实体的运行过程，是系统进行资源分配和调度的基本单位。进程映像由程序段、相关数据段和PCB（进程控制块，进程存在的唯一标识）组成。&lt;/p&gt;
+
+&lt;p&gt;  线程：是进程中的一个实体，是被系统独立调度和分配的基本单位。它被包含在进程之中，是进程中的实际运作单位。一条线程指的是进程中一个单一顺序的控制流，一个进程中可以并发多个线程，每条线程并行执行不同的任务。&lt;/p&gt;
+
+&lt;p&gt;  最后来点通俗易懂的解释：参考&lt;a href=&quot;http://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html&quot;&gt;阮老师的一篇文章&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果给你一个礼拜的时间学习JAVA，你要怎么安排？&lt;/p&gt;
+
+&lt;p&gt;  参考答案：&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;pandaboard下板你都做了些什么，学会了什么东西？&lt;/p&gt;
+
+&lt;p&gt;  参考答案：&lt;/p&gt;
+
+&lt;p&gt;  这个是我个人简历上面的东西，这个回答的非常糟糕，根本不知道自己在讲什么&lt;/p&gt;
+
+&lt;p&gt;  写了一篇&lt;a href=&quot;http://nikefd.github.io/techonology/2015/03/12/project-review/&quot;&gt;项目回顾&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;linux下怎么查看java进程？&lt;/p&gt;
+
+&lt;p&gt;  参考答案：&lt;/p&gt;
+
+&lt;p&gt;  我回答的是直接采用ps命令，他也没有多问了&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;大概多长时间能够上手java？&lt;/p&gt;
+
+&lt;p&gt;  参考答案：&lt;/p&gt;
+
+&lt;p&gt;  我一开始说的一两个月，可能说的太长了，应该不用那么长时间&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果给你一周的时间来学习JAVA，你会怎么安排？&lt;/p&gt;
+
+&lt;p&gt;  参考答案：&lt;/p&gt;
+
+&lt;p&gt;  我一开始回答的是先找一本经典的JAVA书籍，然后安排一下每天的学习任务…然后没了…应该再加一句，疯狂的敲代码…&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;还有哪些东西忘了…&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>C++相关</title>
+   <link href="http://username.github.io/technology/2015/03/07/about-C%2B%2B"/>
+   <updated>2015-03-07T00:00:00+08:00</updated>
+   <id>http://username.github.io/technology/2015/03/07/about-C++</id>
+   <content type="html">&lt;pre&gt;&lt;code&gt;class A 
+{ 
+    public 
+    play(); 
+}
+
+A *p；  //p-&amp;gt;play()使用; 左边是结构指针。 
+A p；   //p.paly()使用; 左边是结构变量。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;总结：
+箭头（-&gt;）：左边必须为指针；
+点号（.）：左边必须为实体。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>一些vi命令或技巧</title>
+   <link href="http://username.github.io/technology/2015/03/04/vi"/>
+   <updated>2015-03-04T00:00:00+08:00</updated>
+   <id>http://username.github.io/technology/2015/03/04/vi</id>
+   <content type="html">&lt;p&gt;开始接触vi，慢慢学习吧。&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;路漫漫其修远兮，吾将上下而求索.    屈原《离骚》&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;vi复制粘贴，选中就是复制，鼠标滚轮建就是粘贴。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;命令模式下SHIFT + * 查找当前光标处单词&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;多行注释：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;首先按esc进入命令行模式下，按下Ctrl + v，进入列（也叫区块）模式;&lt;/li&gt;
+&lt;li&gt;在行首使用上下键选择需要注释的多行;&lt;/li&gt;
+&lt;li&gt;按下键盘（大写）“I”键，进入插入模式；&lt;/li&gt;
+&lt;li&gt;然后输入注释符（“//”、“#”等）;&lt;/li&gt;
+&lt;li&gt;最后按下“Esc”键。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;删除多行注释：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;首先按esc进入命令行模式下，按下Ctrl + v, 进入列模式;&lt;/li&gt;
+&lt;li&gt;选定要取消注释的多行;&lt;/li&gt;
+&lt;li&gt;按下“x”或者“d”.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;多行删除&lt;/p&gt;
+
+&lt;p&gt; 1.首先在命令模式下，输入“：set nu”显示行号；
+ 2.通过行号确定你要删除的行；
+ 3.命令输入“：32,65d”,回车键，32-65行就被删除了，很快捷吧&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;参考：http://www.pythontab.com/html/2012/linuxkaiyuan_1222/47.html&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>少年维特的烦恼读后感</title>
+   <link href="http://username.github.io/reading/2015/03/01/Werther"/>
+   <updated>2015-03-01T00:00:00+08:00</updated>
+   <id>http://username.github.io/reading/2015/03/01/Werther</id>
+   <content type="html">&lt;p&gt;寒假回来的时候开始看这本书，断断续续的终于在回学校的路上把这本书看完了，总结一下读书心得吧。&lt;/p&gt;
+
+&lt;p&gt;歌德的《维特》，不知道什么原因开始看的这本书，开始读的时候，却意外的发现自己和文中的主人公维特，在某些方面，一些经历，或者是一些想法，极其的相似。&lt;/p&gt;
+
+&lt;p&gt;从一开始结识绿蒂，到喜欢，到彻底爱上绿蒂，就像之前我对小芝的爱慕一般，那时候，仿佛她就是我的整个世界，在旁人看来，可能已经失去了理智，但是就像文中说的那样，如果当你陷入爱情的时候，还能理智的安排决定你应该怎么做，做什么，那可能就不是真正的爱情。&lt;/p&gt;
+
+&lt;p&gt;我不知道自己是不是真正爱上了小芝，我在心里问自己，有勇气能像维特一样为了绿蒂去死吗？我不知道，但是至少现在的我不会那样做。或者是爱的不够深，或者是爱的方式不同，我不知道。&lt;/p&gt;
+
+&lt;p&gt;外出旅游没有让维特放下对绿蒂的爱恋，不过一段时间的没联系却让我又恢复了一些理智。是的，除了小芝，还有很多很多好女孩，比如说zhen，比如说may，当然还有更多我还不认识的。&lt;/p&gt;
+
+&lt;p&gt;我喜欢旅行，经常，一次旅行，就可以改变我的一些想法，一些呆在家里可能永远不会改变的想法。不过也有一些东西仍顽固的盘踞在脑中，可能经历的太少了。假如有这么两个女孩，两个人的性格你都很喜欢，一个是你内心喜欢的，一个是你脑中喜欢的。这两种说法有什么不一样吗？我还是不知道。那如果说一个有男朋友，一个没有男朋友呢？一个是独生女，一个不是独生女呢？一个性格比较内向，一个比较活波呢？&lt;/p&gt;
+
+&lt;p&gt;不知道从什么时候开始，喜欢一个女孩，我开始从一些乱七八糟的本应该和其没有任何关系的一些方面来考虑。因为长大了？成熟了？但是这不是我想要的！&lt;/p&gt;
+
+&lt;p&gt;周围的束缚越来越多，越来越多，多的让我迷失了方向，不知道我该怎么做，我只能被动的想着，先等等吧，多去经历一些，说不定你就知道了。但是说不定到时候，已经太晚了。&lt;/p&gt;
+
+&lt;p&gt;这个世界还是很美好的对吧，我喜欢维特和绿蒂的爱情，对于维特的死，我也没有资格去评判对错，还不曾经历过如此刻骨铭心的爱情。希望有一天，我能感受到。更希望我能够拥有她，只能这样奢望。&lt;/p&gt;
+
+&lt;p&gt;现在，我还能坦荡的说着什么，爱情不是这个世界的全部，还有很多开心，快乐，奇妙，美好的东西。比如说亲情，友情，比如说壮丽的风景，比如说精美的艺术品……&lt;/p&gt;
+
+&lt;p&gt;但是，当爱情真正到来的时候，当你为此失去理智的时候，那时候，她，就是你的整个世界。&lt;/p&gt;
+
+&lt;p&gt;下面是一些原文的摘录，看后半本的时候忘了摘录，所以内容不多：&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;亲爱的威廉，我思绪万千，想到人有闯荡世界、搞出新发现，以及遨游四方等种种欲望，也想过人由于有了内心的本能冲动，于是便甘心情愿地局限在狭小的天地里，按习惯行事，对周围事物也不再去操那份闲心。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;爱情真的可以改变一个人！&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;如果我们竭尽自己虚弱和疲惫之力，一个劲地勇往直前，那么我们往往便会发现，尽管我们步履蹒跚，而且逆风而行，却比那扬帆使桨的人走得更远——而且——如果能同别人并驾齐驱或者甚至超而过之，就会真正感觉到对自己充满了信心。&lt;/p&gt;
+
+&lt;p&gt;心灵的平静是非常珍贵的，它本身就是快乐。亲爱的朋友，要是这美丽而宝贵的珍宝，不那么容易碎，该有多好。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;现在自己心太乱了，该平静下来好好想想了&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;成人也同孩子一样在这个地球上到处磕磕绊绊，劳碌奔忙，既不知道自己来自何处，欲往何方，办事也无真正的意向，只好成为饼干、糕点和桦树条的奴隶：这些谁也不愿相信，然而我却觉得，这是一目了然的。&lt;/p&gt;
+
+&lt;p&gt;朋友们，为什么天才的河流难得冲破堤岸，难得成为汹涌澎湃的洪水，震撼你惊愕的灵魂？——亲爱的朋友们，其原因就在于，两岸住的是沉着冷静、深思熟虑的老爷，他们担心自己花园中的亭榭、郁金香花圃以及菜园会被洪水冲毁，所以知道及时筑堤挖渠，以防患于未然。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;应该墨守成规老老实实，还是凭着自己感觉走？有好好想过吗？太多的束缚，应该怎么去对待，我不知道。反正希望自己能过上有意义的生活。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>三月份计划</title>
+   <link href="http://username.github.io/plan/2015/02/27/plan-for-March"/>
+   <updated>2015-02-27T00:00:00+08:00</updated>
+   <id>http://username.github.io/plan/2015/02/27/plan-for-March</id>
+   <content type="html">&lt;p&gt;要准备的工作&lt;/p&gt;
+
+&lt;p&gt;复试前：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;复试 （每天至少8个小时）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;英语自我介绍&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;完成小书的题目&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;回顾做过的项目&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;复习四科基本知识&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;锻炼身体 （至少两天跑一次，一次30分钟）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;学习吉他 （两天一次，一个小时左右）&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;复试后：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;工作笔试面试 （进行至少10次面试）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;锻炼身体 （至少两天跑一次，一次40分钟）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;学好英语 （每天至少一个小时的英语）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;开始毕业设计 （每天至少六个小时）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;学习吉他 （两天一次，一个小时左右）&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;br /&gt;
+
+
+&lt;p&gt;时间安排表如下：&lt;/p&gt;
+
+&lt;table width=&quot;500&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Time&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;job&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;起床了&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;7:20-11:20&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;学习&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;12:00-12:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;学习&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;12:30-13:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;睡觉&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;13:10-16:40&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;学习&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;17:20-17:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;散步&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;17:40-21:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;学习&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;21:10-22:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;锻炼或娱乐&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;23:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;睡觉了&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+&lt;br /&gt;
+
+
+&lt;p&gt;每周有一天空闲时间自由安排&lt;/p&gt;
+
+&lt;br /&gt;
+
+
+&lt;p&gt;打卡表：&lt;/p&gt;
+
+&lt;table width=&quot;800&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.1&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.2&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.3&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.4&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.5&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.6&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.7&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.8&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.9&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.10&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.11&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.12&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.13&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.14&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.15&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.16&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;x&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;x&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;✓&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;x&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;✓&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;✓&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;✓&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;✓&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;✓&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;✓&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;✓&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;x&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;✓&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;x&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;✓&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+&lt;table width=&quot;800&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.17&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.18&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.19&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.20&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.21&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.22&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.23&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.24&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.25&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.26&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.27&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.28&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.29&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.30&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;3.31&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Notepadd++ 插件</title>
+   <link href="http://username.github.io/technology/2015/02/25/notepad%2B%2B-plugin"/>
+   <updated>2015-02-25T00:00:00+08:00</updated>
+   <id>http://username.github.io/technology/2015/02/25/notepad++-plugin</id>
+   <content type="html">&lt;p&gt;主要参考：&lt;a href=&quot;http://www.guidingtech.com/31357/notepad-plus-plugins/&quot;&gt;http://www.guidingtech.com/31357/notepad-plus-plugins/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;1. 插件一：markdown语法高亮&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;step 1&lt;/strong&gt;： 下载语言包&lt;a href=&quot;https://github.com/Edditoria/markdown_npp_zenburn/archive/master.zip&quot; title=&quot;markdown&quot;&gt;markdown&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;step 2&lt;/strong&gt;： Language -&gt; define your language -&gt; Import ... ，选择userDefineLang.xml&lt;/p&gt;
+
+&lt;h4&gt;2. 插件二：Explorer&lt;/h4&gt;
+
+&lt;p&gt;直接在Plugins Manager 里下载&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/explorer.png&quot; alt=&quot;Alt Explorer&quot; /&gt;&lt;/p&gt;
+
+&lt;h4&gt;3. 插件三：Compare&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/compare.png&quot; alt=&quot;Alt Compare&quot; /&gt;&lt;/p&gt;
+
+&lt;h4&gt;4. 插件四：Preview HTML&lt;/h4&gt;
+
+&lt;p&gt;预览HTML文件&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ubuntu12.04（i386） 安装haroopad</title>
+   <link href="http://username.github.io/technology/2015/02/24/haroopad"/>
+   <updated>2015-02-24T00:00:00+08:00</updated>
+   <id>http://username.github.io/technology/2015/02/24/haroopad</id>
+   <content type="html">&lt;p&gt;1.从官网上下载haroopad安装包 http://pad.haroopress.com/&lt;/p&gt;
+
+&lt;p&gt;2.安装好之后打开报错&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;libstdc++.so.6: version `GLIBCXX_3.4.18' not found
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;解决方法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ libstdc++.so.6: version `GLIBCXX_3.4.18' not found
+
+$ sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+
+$ sudo apt-get install lib64stdc++-4.9-dev 
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>永春骑行厦门(got it!)</title>
+   <link href="http://username.github.io/traveling/2015/02/11/Traveling-To-Xiamen"/>
+   <updated>2015-02-11T00:00:00+08:00</updated>
+   <id>http://username.github.io/traveling/2015/02/11/Traveling-To-Xiamen</id>
+   <content type="html">&lt;p&gt;想了很久的厦门骑行终于结束了，写下感受哈&lt;/p&gt;
+
+&lt;p&gt;原来是打算和我一个同学一起的，然后他不想去了只剩自己一个人，爸妈不放心，其实我自己也有点虚，路上会不会出啥事啊，年末比较乱…&lt;/p&gt;
+
+&lt;p&gt;纠结了半天，发现浩然兄一个人在马来西亚旅游，瞬间觉得自己真是弱爆了，聊了几句，果然很容易的被怂恿下定了单人骑行的决心，真是特别感谢浩然兄，以后啥事下不了决心就找你了！&lt;/p&gt;
+
+&lt;p&gt;然后只能骗爸妈说和同学一起了，从永春城关到岛内140公里，挺多上下坡的，以为一天可能到不了，所以我早早出发了，早上六点天还没亮就出发了，一路上经历了阴天晴天阴天，路过了各种上下坡隧道大桥，违反了一点点交通规则…结果下午两点多就到岛外了，然后进岛找旅馆～沿着环岛路吹着清爽的海风，看着清澈辽阔的大海，心里开心的～其实也没那么难，原来以为一个人的路途有多困难，走过了才发现，原来也不过这样嘛！&lt;/p&gt;
+
+&lt;p&gt;厦门的旅行就不说了，玩的还是挺开心的～～～&lt;/p&gt;
+
+&lt;p&gt;有了下去的骑行，回来我就决定一口气骑到家里了。&lt;/p&gt;
+
+&lt;p&gt;起点：厦门市莫凡家庭旅馆&lt;/p&gt;
+
+&lt;p&gt;终点：泉州市永春县锦斗镇&lt;/p&gt;
+
+&lt;p&gt;路程：百度地图170+公里&lt;/p&gt;
+
+&lt;p&gt;回来的路比下去的更难骑哈，海拔上升了500米加各种上下坡，一路过关斩将，骑行12个小时，基本上没怎么休息，上坡的时候把正在喜欢的和以前喜欢过的女生名字喊了N加遍…然后终于到家了！&lt;/p&gt;
+
+&lt;p&gt;很多事情，看着好像挺难的，之前百度出来看别人骑过的人说好像也挺难的，但是其实很多事情你自己亲身经历过，会发现原来也不是那么难。所以，以后有啥想做的事，别再纠结，别心虚，只管做好准备，然后扬帆启航吧！加油吧少年！&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;上图：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/road.jpg&quot; alt=&quot;Alt Road&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;一段几公里的大上坡，这是回来拍的，去的时候下坡差不多是跟在小汽车后面走的，回来的时候…嗯嗯，挺好的！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/seaside.jpg&quot; alt=&quot;Alt Seaside&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这是在厦门海边了，远处那模糊的小岛应该是小金门了，我要骑过去了！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/sunset.jpg&quot; alt=&quot;Alt Sunset&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;鼓浪屿的日落，这渣手机只能拍成这样了…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/sunrise.jpg&quot; alt=&quot;Alt Sunrise&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;回来路上看的日出，天气很好！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/tunnel1.jpg&quot; alt=&quot;Alt Tunnel1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这是厦门大学里面的什么隧道，果然不是工科学校！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/tunnel2.jpg&quot; alt=&quot;Alt Tunnel2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;厦门岛内的宽敞明亮的大隧道！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/tunnel3.jpg&quot; alt=&quot;Alt Tunnel3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这是回来路上的阴暗狭窄的小隧道！&lt;/p&gt;
+
+&lt;p&gt;最后引用乔治.马洛里的一句话：&lt;/p&gt;
+
+&lt;p&gt;问：你们为什么要去攀登珠穆朗玛？&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Because it is there.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;下一个旅行地点：台湾&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>平凡的世界读后感（我最喜欢的一本小说之一）</title>
+   <link href="http://username.github.io/reading/2015/02/01/World-Of-Plainness"/>
+   <updated>2015-02-01T00:00:00+08:00</updated>
+   <id>http://username.github.io/reading/2015/02/01/World-Of-Plainness</id>
+   <content type="html">&lt;p&gt;这本小说是我这个礼拜在去实习的地铁上读完的，原来觉得上班来回四个小时太浪费时间了，然后它让我感觉一天中最充实的时间就是在地铁上度过的。&lt;/p&gt;
+
+&lt;p&gt;这本书讲述了在这平凡的世界里，平凡的人们的一些平凡的事情，从历史的长河看，似乎微不足道，但是这是这些平凡，而造就了人类不平凡的历史。&lt;/p&gt;
+
+&lt;p&gt;而我，现在，正是这平凡的世界中平凡的一员，回忆着平凡的世界这本书讲述着那些七八十年代中平凡的人们的一些事情，久久不能平静。&lt;/p&gt;
+
+&lt;p&gt;不知道该从哪里写起，先写些让自己印象深刻的一些笔记吧。&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;就能使一个人到如此的地步。一次邂逅，一次目光的交融，就是永远的合二而一，就是与上帝的契约；纵使风暴雷电，也无法分解这种心灵的粘结。两个民族，语言不通，天各一方，甚至相互间连名字也不知道……真是不可思议！不可思议吗？世界上又有多少事不可思议！而最不可思议的正是人，人的感情。&lt;/p&gt;
+
+&lt;p&gt;叶赛宁的几句诗：不婉惜，不呼唤，我也不啼哭……金黄的落叶堆满我心间，我已经再不是青春少年……&lt;/p&gt;
+
+&lt;p&gt;玉厚看玉亭这样没出息，才知道他半辈子辛劳，企图给孙家造就一个光宗耀祖人物的指望落空了。但他心平气静，并不为此而过分地懊悔。是啊，这是命运。正如辛劳一年营务的庄稼，还没等收获，就被冰雹打光了，难道能懊悔自己曾经付出的力气吗？&lt;/p&gt;
+
+&lt;p&gt;一个大院子，一线五孔大石窑，一年四季一家人有吃有穿有钱花，人活一世，已经够满意了。&lt;/p&gt;
+
+&lt;p&gt;生活就是这样。在我们都是小孩子的时候，一个人和一个人可能有家庭条件的区别，但孩子们本身的差别并不明显。可一旦长大了，每个人的生活道路会有多大的差别呀，有的甚至是天壤之别！&lt;/p&gt;
+
+&lt;p&gt;他现在认识到，他是一个普普通通的人，应该按照普通人的条件正正常常的生活，而不要做太多的非分之想。当然，普通并不等于庸俗。他也许一辈子就是个普通人，但他要做一个不平庸的人。在许许多多平平常常的事情中，应该表现出不平常的看法和做法来。&lt;/p&gt;
+
+&lt;p&gt;在这个世界上，不是所有合理的和美好的都能按照自己的愿望存在或者实现。&lt;/p&gt;
+
+&lt;p&gt;他也没什么可惋惜的，因为命运就该如此。但他此刻仍然想跑到一个没人的地方，痛痛快快哭一场！&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;命运在自己手中，真希望你能和润叶在一起，不能这么将就着过。我也不会，我会努力追求我真正的幸福，不管那有几堵墙，一堵一堵翻吧！加油！&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;一个女干部怎么可能爱她的农民丈夫呢！&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;有时候你以为你是在为别人考虑，但是往往最让爱你的人难受。过着清贫的生活怎么了，别人的闲话又能怎么样，但是，你又能指责谁呢？在那个社会。&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;她在前方的战壕里拼命抵挡。但她为之而战的后方却自己烧成了一片火海……&lt;/p&gt;
+
+&lt;p&gt;别了，我的青草坡，我的马兰花，我洒过欢乐和伤心泪水的地方。我将永远不会忘记这一切！即是有一天我要远走它乡，但愿我还能在梦中再回到这里来……&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;成长总是伴随着难受。你说的，我记着。&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;田润叶经过一段波澜起伏的爱情周折，最后还是没有逃脱她不情愿的结局。她想亲近的人远离了她，而她竭力想远离的人终于没有能摆脱——她今天就要和李向前举行婚礼了。从古到今，人世间有过多少这样的阴差阳错！这类生活悲剧的演出，不能简单地归结为一个人的命运，而常常是当时社会的各种矛盾所造成的。&lt;/p&gt;
+
+&lt;p&gt;他多么希望润叶来到他床边，对他说，她对不起他，请他原谅她……一直到了夜间，他盼望的一切都没有发生。他现在知道，她已经上了她的床，睡觉了。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;爱一个人又有什么错呢？突然又十分同情向前，也是一个本分人。但是，润叶又有什么错？是这个时代错了。&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;他意识到，要走就得赶快走！要不，他就可能丧失时机和勇气，那个梦想就将永远成为梦想。现在正当年轻气盛，他为什么不去实现他的梦想呢？&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;是啊，加油吧！我也要为自己的梦想闯荡！什么都是要付出代价的，梦想也一样！&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;你知道，幸福不仅仅是吃饱穿暖，而是勇敢地去战胜困难……是的，他现在只能和一种更艰难的生活比较，而把眼前大街上幸福和幸运的人们忘掉。忘掉！忘掉温暖，忘掉温柔，忘掉一切享乐，而把饥饿、寒冷、受辱、受苦当作自己的正常生活……&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;现在自己的生活已经很幸福了，努力吧！&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;生活不能等待别人来安排，要自己去争取和奋斗；而不论其结果是喜是悲，但可以慰藉的是，你总不枉在这世界上活了一场，有了这样的认识，你就会珍重生活，而不会玩世不恭；同时也会给人自身注入一种强大的内在力量……&lt;/p&gt;
+
+&lt;p&gt;什么是人生？人生就是永不休止的奋斗！只有选定了目标并在奋斗中感到自己的努力没有虚掷，这样的生活才是充实的，精神也会永远年青！&lt;/p&gt;
+
+&lt;p&gt;这是人生的心酸。在我们短促而又漫长的一生中，我们在苦苦地寻找人生的幸福。可幸福往往又与我们失之交臂。当我们为此而耗尽宝贵的青春年华，皱纹也悄悄地爬上了眼角的时候，我们或许才能稍稍懂得生活实际上意味着什么……&lt;/p&gt;
+
+&lt;p&gt;对于生活理想，应该象宗教徒对待宗教一样充满虔诚与热情！&lt;/p&gt;
+
+&lt;p&gt;这两个人先后发生的变化，应该提醒我们不能老是用一种眼光来看待人。不要以为一个人一时正确，就认为他永远正确。也不要因为一个人犯过错误，就断定他永远不可再加入优秀者的队伍。道理是如此简单，事实又不断在佐证，可是生活中用不变的眼光看待人的现象却是常常存在的。&lt;/p&gt;
+
+&lt;p&gt;生活中真正的勇士向来默默无闻，喧哗不止的永远是自视高贵的一群。&lt;/p&gt;
+
+&lt;p&gt;人生啊，是这样不可预测。没有永恒的痛苦，没有永恒的幸福。生活象流水一般，有时是那么平展，有时又是那么曲折。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;花了一周的时间看完了这本百万字的小说，就像少平去赴两年之约时作者说的，不知道这是一个尤里．纳吉宾式的结局和欧．亨利式结局，我也不知道整部小说是一个什么结局，我甚至觉得这本小说没有结局，生活仍在继续，在这个平凡的世界。&lt;/p&gt;
+
+&lt;p&gt;小说中细致的描写了很多人，还有双水村，有时候甚至觉得，我也是双水村中的一员。永远想不到故事的发展，就像生活，没有什么设定好的情节，接下来会怎么样怎么样，谁也不知道，可能你没办法靠一己之力去给这个世界带来什么变化，甚至，改变你自己的生活也不容易，但是，就像少平一样，不管这个世界怎样，再艰难，再困苦，在心中，一直有着自己的梦，自己努力的方向，虽然很难，甚至很多时候都忍不住想要放弃，但是，没有度不过的坎，再艰难，都挺过来了。没有那些经历，我不知道到底有多难，每天搬石头搬到背脊烂掉，时时刻刻为生活奔波，或者是紧张危险又苦又累的挖煤生活，像我们这些在二十世纪末长大的孩子，应该大部分都不会有这样的经历。我觉得自己经历的磨练经历的痛苦太少了，我想让自己变的强大，那首先得经历过痛苦。但是往往缺少那么一股劲，感觉自己的内心生活比实际上做的要汹涌澎湃很多…&lt;/p&gt;
+
+&lt;p&gt;原来想着寒假骑车去厦门，原来说好的同学不去了，有点小烦，自己一个人的话不知道有没有勇气骑去。先写这些吧，加油！下午骑车去德化先！&lt;/p&gt;
+
+&lt;p&gt;买了辆好车回来，一定要好好骑，今天过的还算挺充实的，今天上午六点多起床半走半跑……好像跑题了……
+回到平凡的世界，每个人都有着自己的个性，但是随着一些事情的发生，又慢慢改变着，没有什么绝对的好坏，我们也在不停的经历，不停的成长，不停的改变，想想自己和以前初高中甚至是大一大二，都有着很多的不同，可能在别人看来好像也没多大改变，但是实际上，在精神世界里，已经发生了翻天覆地的变化。当然，我觉得应该是向着好的一面发展的吧哈。&lt;/p&gt;
+
+&lt;p&gt;我从来不会看不起一个人，但是我会讨厌一个人……但是也不会一直讨厌，人总是在变化，犯错误不可避免，最重要的是你对待错误的态度，就像周文龙冯世宽他们，一开始最讨厌的几个人，到后来，慢慢改正，成为造福百姓的好官。&lt;/p&gt;
+
+&lt;p&gt;田晓霞，我最喜欢的一位姐姐，在她为了救一个小女孩然后被大浪卷走后，我一直在默默期盼着，少平的两年之约，晓霞一定要出现！虽然我知道她不再会出现，除了在一些人的梦中，但是还是强烈的希望，作者能把她写活……但是，人生就是如此，在这么一个世界，有些东西，失去了就永远失去了。我不知道在现在这个世界上，还有没有像晓霞这样的女孩，我想会有的，希望她们能一直开心的生活下去。希望当这个世界的好人们一生平安！&lt;/p&gt;
+
+&lt;p&gt;李向前，一个对润叶爱的痴狂的男人，润叶，就是他的世界，我从来都不知道爱一个人可以爱到这个程度，我只是无数次的听到一个人爱另一个，因为某某原因，由爱生恨……但是某某在李向前眼里，好像什么都不是，满满的只有爱，我不会是那样的人，我也不希望自己成为那样的人，一旦她不爱你，那你得承受多大的痛苦，我想象不来。但是，一旦你获得了她的爱，你就获得了整个世界。&lt;/p&gt;
+
+&lt;p&gt;对于爱情，到底应该用理性的眼光去看待，亦或是非理性，可能每个人有每个人的看法，当你从旁边者的角度来看的时候，好像应该理性的去对待，但是一旦你陷入了爱情中，理性是什么东西，非理性又是什么，和爱情又有什么关系，管它什么东西。&lt;/p&gt;
+
+&lt;p&gt;这本书讲述的是一个世界，一个平凡的世界，不是我们现在所生活在的这个世界，那是一个三十年前的世界，但是，里面的人们，和现在这个社会培养出来的人们，不管看上去有多大的不同，归根结底，我觉得本质上还是一样的。从农民到工人到学生到干部，里面述说了太多的生活，慢慢去品味吧。或许第一遍读的时候和第二遍读的时候，又会又很多不同。&lt;/p&gt;
+
+&lt;p&gt;不知道该写些什么了，其实一本书，要是能够给你带来一点点触动，那么它就值得去读，其实有时候，你越看不下去的书对你的帮助越大，当然平凡的世界显然不是这种书，这是一本让你欲罢不能的一本书，好像用词不是很恰当……&lt;/p&gt;
+
+&lt;p&gt;现在23岁，十年之后，再读一遍平凡的世界，看看这个平凡的世界，能给我带来哪些。&lt;/p&gt;
+
+&lt;p&gt;有追求有理想的年轻人很多，但是最后能实现自己梦想的人却很少，不要总是抱怨没时间，没机会。脚踏实地的去做吧。加油！&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>小王子读后感</title>
+   <link href="http://username.github.io/reading/2015/01/26/Little-Prince"/>
+   <updated>2015-01-26T00:00:00+08:00</updated>
+   <id>http://username.github.io/reading/2015/01/26/Little-Prince</id>
+   <content type="html">&lt;p&gt;今天在地铁上读完了小王子这本书，很小的一本书，我记得以前应该看过一次，但是以前不做笔记，读后好像就忘了……&lt;/p&gt;
+
+&lt;p&gt;下面是我很喜欢的两句话：&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;这就像花一样。&lt;/p&gt;
+
+&lt;p&gt;如果你爱上了一朵生长&lt;/p&gt;
+
+&lt;p&gt;在一颗星星上的花，那么夜间，&lt;/p&gt;
+
+&lt;p&gt;你看着天空就感到愉快甜蜜，&lt;/p&gt;
+
+&lt;p&gt;所有的星星上都好像开着花。&lt;/p&gt;
+
+&lt;p&gt;只有用心才能看的清。实质性的的东西，用眼睛是看不见的。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;在小王子眼里，大人们总是在忙一些没有意义的事情，而那些真正有意义的事情，总是被轻易的忽略。想想自己，总是努力的想让自己的生活更加充实，但是到头来却也好像没做些什么事情，到底哪些事情才是有意义的呢，获得什么大成就？赚很多的钱？或者是别的一些看似光鲜的事情吗？或者是像小王子一样，就算是一朵花，只要你爱它，那么，它就是这世界上唯一的最让你心动的东西，不管它在别人看来多没微不足道。&lt;/p&gt;
+
+&lt;p&gt;不要那么在意别人的看法，我不知道这样告诉自己多少次了，但是每每总是或多或少的被别人影响，很喜欢小王子的纯真可爱，在他眼里，没有什么好人坏人，甚至可以和一条毒蛇谈心。简单的看这个世界，我不知道现在还有没有这样的人，现在的我肯定做不到，将来应该也做不到。&lt;/p&gt;
+
+&lt;p&gt;想想人一辈子，其实也就那样，何必为了那些过眼云烟般的一些事情烦恼呢，简简单单的过也挺好的。我想，用小王子对待花朵和他的那颗小星球的心态来面对这个纷杂的世界，应该，也还不错吧。&lt;/p&gt;
+
+&lt;p&gt;年轻的时候，总该有年轻时候的样子，总该多一些经历，像小王子一样，外出旅游，路过了那么多地方，才发现，自己最爱的那多花，在等着他。&lt;/p&gt;
+
+&lt;p&gt;我还在路上。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>寒假安排</title>
+   <link href="http://username.github.io/plan/2015/01/25/winter-holiday-plan"/>
+   <updated>2015-01-25T00:00:00+08:00</updated>
+   <id>http://username.github.io/plan/2015/01/25/winter-holiday-plan</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;从家里骑自行车到厦门，隔着海看看金门岛（知道成绩前完成）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果能进复试则准备复试，进不了复试准备工作&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;找同学们玩&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;看五本小说，并写读后感&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;多陪陪家里人&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;完善自己的博客&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>我的梦想</title>
+   <link href="http://username.github.io/thinking/2015/01/25/my-dream"/>
+   <updated>2015-01-25T00:00:00+08:00</updated>
+   <id>http://username.github.io/thinking/2015/01/25/my-dream</id>
+   <content type="html">&lt;p&gt;今天好好想想自己到底想干些什么，自己的梦想，到底是什么？&lt;/p&gt;
+
+&lt;p&gt;我的梦想清单：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;从太空上看看地球&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;骑行川藏线&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;写一本书&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;开一家书店&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;带着我喜欢的人环游世界&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有一小片自己的小花园，养一条狗&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;去美国哈佛大学上蹭一次课&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;去台湾环岛骑行&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有一个大人能玩的气垫城堡&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Randy教授的最后一堂课观后感</title>
+   <link href="http://username.github.io/movie/2015/01/25/Randy-Pausch"/>
+   <updated>2015-01-25T00:00:00+08:00</updated>
+   <id>http://username.github.io/movie/2015/01/25/Randy-Pausch</id>
+   <content type="html">&lt;p&gt;看了Randy Pausch教授的最后一堂课，能学习的东西太多了，记下来慢慢领悟。绝对值得一看。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;我们不能决定人生拿到什么牌，但我们能决定如何打好手上的牌。
+We cannot change the cards we are dealt, just how we play the hand.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;任何事情都可能发生，我们不要忽略灵感和允许梦想的巨大力量。
+Anything’s possible, and that’s something we should not lose sight of, is that the inspiration and the permission to dream is huge.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;教练格雷厄姆说，好，那在一给定时刻有几个人触球? 其中之一。他说，对，所以我们要练其他 21 个人的任务。
+Coach Graham said, all right, and how many people are touching the football at any given time? One of them. And he said, right, so we’re going to work on what those other twenty-one guys are doing.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;当你搞砸了而没有人对你说任何东西，这意味着他们放弃了。
+When you’re screwing up and nobody’s saying anything to you anymore, that means they gave up.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;经验是在你无法获得想要之物后获得。
+Experience is what you get when you didn’t get what you wanted.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在人生中的某些时刻，你会发现有些事情做不到，只要见到就很棒了。
+At a certain point you just realize there are some things you are not going to do, so maybe you just want to stand close to the people.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;但请记住，砖墙在那里是有原因的。砖墙不是要挡住我们。砖墙是要给我们机会说明我们有多迫切的想得到。因为砖墙是要阻挡那些不诚心的人，那些其他人。
+But remember, the brick walls are there for a reason. The brick walls are not there to keep us out. The brick walls are there to give us a chance to show how badly we want something. Because the brick walls are there to stop the people who don’t want it badly enough. They’re there to stop the other people.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;我说，对不起，你说你是汤姆.弗奈斯？他说是的。我说，那么我很愿意回答你的问题，但首先，你愿意明天一起跟我吃午饭吗？这个小插曲寓意很深，这里面有很多谦卑，但也让那人无法拒绝。
+I said, then I would love to answer your question, but first, will you have lunch with me tomorrow? And there’s a lot in that little moment, there’s a lot of humility but also asking a person where he can’t possibly say no.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;当你模仿聪明人时，看起来也蛮聪明的。
+So it’s pretty easy to be smart when you’re parroting smart people.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;他说，当你对别人怨恼愤怒时，你只是还没有给他们足够的时间。给他们多一点时间，他们将几乎总能让你叹服。
+He said, when you’re pissed off at somebody and you’re angry at them, you just haven’t given them enough time. Just give them a little more time and they’ll almost always impress you.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;他们两个人都在说，我不知道，但一个是很好的方式，一个坏的方式。
+They’re both ways of saying I don’t know, but boy there’s a good way and a bad way.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There was no rule!
+（把一张漂亮的大图放在学术论文最前面。）&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;我对汤米说，你知道他们很可能不会拍下一部星战电影了。他说，不，他们会。
+And I said to Tommy, you know they’re probably not going to make those next movies. And he said, no, THEY ARE.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;安迪想了想，说，你明天到课堂，看着他们的眼睛说， &quot;伙计，干得不错，但我知道你门能做得更好&quot; 。这是至好的建议。因为他说的是，很显然你不知道标准要定多高，你主观的把标准定在哪儿对他们都不好。
+And Andy thought for a minute and he said, you go back into class tomorrow and you look them in the eye and you say, “Guys, that was pretty good, but I know you can do better.” And that was exactly the right advice. Because what he said was, you obviously don’t know where the bar should be, and you’re only going to do them a disservice by putting it anywhere.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;做一些别人没做过的事，你总会被暗箭袭击，你只能面对现实。我的意思是一切可能出问题的地方都出了问题。但回头看来，有很多人得到了很多乐趣。
+If you’re going to do anything that pioneering you will get those arrows in the back, and you just have to put up with it. I mean everything that could go wrong did go wrong. But at the end of the day, a whole lot of people had a whole lot of fun.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;一个教育工作者能给的最好的礼物就是让人能自我反省。
+And that is the best gift an educator can give is to get somebody to become self reflective.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;教别人东西的最好方法是让他们认为他们在学其它的东西。
+The best way to teach somebody something is to have them think they’re learning something else.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;我跟我妈妈抱怨这考试有多难，有多可怕，她只是靠过来，拍拍我的胳膊说，我知道你的感受，小鬼，可记住你爸爸在你的年龄，正在和德国人打仗呢。
+And I was complaining to my mother about how hard this test was and how awful it was, and she just leaned over and she patted me on the arm and she said, we know how you feel honey, and remember when your father was your age he was fighting the Germans.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不要未失去好奇心，它太重要了，它驱动我们前行。
+Never lose the childlike wonder. It’s just too important. It’s what drives us.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;因为我能。
+Because I can.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;她说，我花了很长时间但我最终搞明白了。跟男人谈恋爱实际上很简单。不理会他们说什么，只注意他们做什么。就那么容易。我回想起我的单身汉日子，我说，得。
+Sil said, it took me a long time but I’ve finally figured it out. When it comes to men that are romantically interested in you, it’s really simple. Just ignore everything they say and only pay attention to what they do. It’s that simple. It’s that easy. And I thought back to my bachelor days and I said, damn.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有些改变人生的时刻，如果 10 年后，你回想起来，知道这些时刻，你就是有福的人。
+There are moments that change your life. And ten years later if you know in retrospect it was one of those moments, you’re blessed.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;当你做砸了，道歉。注意力在别人身上，而不是自己。
+Apologize when you screw up and focus on other people, not on yourself.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;我来解决。
+I will fix this.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不要抱怨。而要加倍努力。
+Don’t complain. Just work harder.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有一技之长，它使你有价值。
+Be good at something, it makes you valuable.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有所准备。运气真的是机会与准备的结合。
+And be prepared. Luck is truly where preparation meets opportunity.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;这不是关于如何实现你们的梦想。它的关于如何引领你的生活。如果你正确引领你的生活，因缘自有报应。梦想会成真。
+It’s not about how to achieve your dreams. It’s about how to lead your life. If you lead your life the right way, the karma will take care of itself. The dreams will come to you.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;你不能单打独斗，必须有人来帮你。只要你讲真话，就会有人来帮你。
+You can't get there alone. People have to help you. You get people to help you by telling the truth.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;诚以待人，这样别人也会忠实地对待你。
+Loyalty is a two way street.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="http://username.github.io/2015/01/24/hello-world"/>
+   <updated>2015-01-24T00:00:00+08:00</updated>
+   <id>http://username.github.io/2015/01/24/hello-world</id>
+   <content type="html">&lt;h2&gt;Hello World&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;My first page&lt;/p&gt;
+
+
+
+
+&lt;p&gt;24 Jan 2015&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jekyll Introduction</title>
+   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <updated>2011-12-29T00:00:00+08:00</updated>
+   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <content type="html">&lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
+Directly following the intro we'll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
+
+&lt;h2&gt;Overview&lt;/h2&gt;
+
+&lt;h3&gt;What is Jekyll?&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
+dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as &quot;a simple, blog aware, static site generator&quot;.&lt;/p&gt;
+
+&lt;h3&gt;Examples&lt;/h3&gt;
+
+&lt;p&gt;This website is created with Jekyll. &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Sites&quot;&gt;Other Jekyll websites&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;What does Jekyll Do?&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is a ruby gem you install on your local system.
+Once there you can call &lt;code&gt;jekyll --server&lt;/code&gt; on a directory and provided that directory
+is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files,
+compute categories, tags, permalinks, and construct your pages from layout templates and partials.&lt;/p&gt;
+
+&lt;p&gt;Once parsed, Jekyll stores the result in a self-contained static &lt;code&gt;_site&lt;/code&gt; folder.
+The intention here is that you can serve all contents in this folder statically from a plain static web-server.&lt;/p&gt;
+
+&lt;p&gt;You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags
+on each request, Jekyll does this once &lt;em&gt;beforehand&lt;/em&gt; and caches the &lt;em&gt;entire website&lt;/em&gt; in a folder for serving statically.&lt;/p&gt;
+
+&lt;h3&gt;Jekyll is Not Blogging Software&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Jekyll is a parsing engine.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll does not come with any content nor does it have any templates or design elements.
+This is a common source of confusion when getting started.
+Jekyll does not come with anything you actually use or see on your website - you have to make it.&lt;/p&gt;
+
+&lt;h3&gt;Why Should I Care?&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is very minimalistic and very efficient.
+The most important thing to realize about Jekyll is that it creates a static representation of your website requiring only a static web-server.
+Traditional dynamic blogs like Wordpress require a database and server-side code.
+Heavily trafficked dynamic blogs must employ a caching layer that ultimately performs the same job Jekyll sets out to do; serve static content.&lt;/p&gt;
+
+&lt;p&gt;Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Developers like Jekyll because we can write content like we write code:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ability to write content in markdown or textile in your favorite text-editor.&lt;/li&gt;
+&lt;li&gt;Ability to write and preview your content via localhost.&lt;/li&gt;
+&lt;li&gt;No internet connection required.&lt;/li&gt;
+&lt;li&gt;Ability to publish via git.&lt;/li&gt;
+&lt;li&gt;Ability to host your blog on a static web-server.&lt;/li&gt;
+&lt;li&gt;Ability to host freely on GitHub Pages.&lt;/li&gt;
+&lt;li&gt;No database required.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;How Jekyll Works&lt;/h1&gt;
+
+&lt;p&gt;The following is a complete but concise outline of exactly how Jekyll works.&lt;/p&gt;
+
+&lt;p&gt;Be aware that core concepts are introduced in rapid succession without code examples.
+This information is not intended to specifically teach you how to do anything, rather it
+is intended to give you the &lt;em&gt;full picture&lt;/em&gt; relative to what is going on in Jekyll-world.&lt;/p&gt;
+
+&lt;p&gt;Learning these core concepts should help you avoid common frustrations and ultimately
+help you better understand the code examples contained throughout Jekyll-Bootstrap.&lt;/p&gt;
+
+&lt;h2&gt;Initial Setup&lt;/h2&gt;
+
+&lt;p&gt;After &lt;a href=&quot;/index.html#start-now&quot;&gt;installing jekyll&lt;/a&gt; you'll need to format your website directory in a way jekyll expects.
+Jekyll-bootstrap conveniently provides the base directory format.&lt;/p&gt;
+
+&lt;h3&gt;The Jekyll Application Base Format&lt;/h3&gt;
+
+&lt;p&gt;Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.
+|-- _config.yml
+|-- _includes
+|-- _layouts
+|   |-- default.html
+|   |-- post.html
+|-- _posts
+|   |-- 2011-10-25-open-source-is-good.markdown
+|   |-- 2011-04-26-hello-world.markdown
+|-- _site
+|-- index.html
+|-- assets
+    |-- css
+        |-- style.css
+    |-- javascripts
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;_config.yml&lt;/strong&gt;
+  Stores configuration data.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;_includes&lt;/strong&gt;
+  This folder is for partial views.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;_layouts&lt;/strong&gt;
+  This folder is for the main templates your content will be inserted into.
+  You can have different layouts for different pages or page sections.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;_posts&lt;/strong&gt;
+  This folder contains your dynamic content/posts.
+  the naming format is required to be &lt;code&gt;@YEAR-MONTH-DATE-title.MARKUP@&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;_site&lt;/strong&gt;
+  This is where the generated site will be placed once Jekyll is done transforming it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;assets&lt;/strong&gt;
+  This folder is not part of the standard jekyll structure.
+  The assets folder represents &lt;em&gt;any generic&lt;/em&gt; folder you happen to create in your root directory.
+  Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;(read more: &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Usage&quot;&gt;https://github.com/mojombo/jekyll/wiki/Usage&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3&gt;Jekyll Configuration&lt;/h3&gt;
+
+&lt;p&gt;Jekyll supports various configuration options that are fully outlined here:
+(&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Configuration&quot;&gt;https://github.com/mojombo/jekyll/wiki/Configuration&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2&gt;Content in Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Content in Jekyll is either a post or a page.
+These content &quot;objects&quot; get inserted into one or more templates to build the final output for its respective static-page.&lt;/p&gt;
+
+&lt;h3&gt;Posts and Pages&lt;/h3&gt;
+
+&lt;p&gt;Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax.
+Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.&lt;/p&gt;
+
+&lt;h3&gt;Working With Posts&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Creating a Post&lt;/strong&gt;
+Posts are created by properly formatting a file and placing it the &lt;code&gt;_posts&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;
+A post must have a valid filename in the form &lt;code&gt;YEAR-MONTH-DATE-title.MARKUP&lt;/code&gt; and be placed in the &lt;code&gt;_posts&lt;/code&gt; directory.
+If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file.
+Additionally, each file must have &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot;&gt;YAML Front-Matter&lt;/a&gt; prepended to its content.
+YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Order&lt;/strong&gt;
+Ordering is an important part of Jekyll but it is hard to specify a custom ordering strategy.
+Only reverse chronological and chronological ordering is supported in Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Since the date is hard-coded into the filename format, to change the order, you must change the dates in the filenames.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt;
+Posts can have tags associated with them as part of their meta-data.
+Tags may be placed on posts by providing them in the post's YAML front matter.
+You have access to the post-specific tags in the templates. These tags also get added to the sitewide collection.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Categories&lt;/strong&gt;
+Posts may be categorized by providing one or more categories in the YAML front matter.
+Categories offer more significance over tags in that they can be reflected in the URL path to the given post.
+Note categories in Jekyll work in a specific way.
+If you define more than one category you are defining a category hierarchy &quot;set&quot;.
+Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title :  Hello World
+categories : [lessons, beginner]
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This defines the category hierarchy &quot;lessons/beginner&quot;. Note this is &lt;em&gt;one category&lt;/em&gt; node in Jekyll.
+You won't find &quot;lessons&quot; and &quot;beginner&quot; as two separate categories unless you define them elsewhere as singular categories.&lt;/p&gt;
+
+&lt;h3&gt;Working With Pages&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Creating a Page&lt;/strong&gt;
+Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do &lt;em&gt;not&lt;/em&gt; start with an underscore.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;
+In order to register as a Jekyll page the file must contain &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot;&gt;YAML Front-Matter&lt;/a&gt;.
+Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the &lt;code&gt;site.pages&lt;/code&gt; array for inclusion into your templates.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Categories and Tags&lt;/strong&gt;
+Pages do not compute categories nor tags so defining them will have no effect.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sub-Directories&lt;/strong&gt;
+If pages are defined in sub-directories, the path to the page will be reflected in the url.
+Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.
+|-- people
+    |-- bob
+        |-- essay.html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This page will be available at &lt;code&gt;http://yourdomain.com/people/bob/essay.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recommended Pages&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;index.html&lt;/strong&gt;
+You will always want to define the root index.html page as this will display on your root URL.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;404.html&lt;/strong&gt;
+Create a root 404.html page and GitHub Pages will serve it as your 404 response.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;sitemap.html&lt;/strong&gt;
+Generating a sitemap is good practice for SEO.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;about.html&lt;/strong&gt;
+A nice about page is easy to do and gives the human perspective to your website.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Templates in Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Templates are used to contain a page's or post's content.
+All templates have access to a global site object variable: &lt;code&gt;site&lt;/code&gt; as well as a page object variable: &lt;code&gt;page&lt;/code&gt;.
+The site variable holds all accessible content and metadata relative to the site.
+The page variable holds accessible data for the given page or post being rendered at that point.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Create a Template&lt;/strong&gt;
+Templates are created by properly formatting a file and placing it in the &lt;code&gt;_layouts&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;
+Templates should be coded in HTML and contain YAML Front Matter.
+All templates can contain Liquid code to work with your site's data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rending Page/Post Content in a Template&lt;/strong&gt;
+There is a special variable in all templates named : &lt;code&gt;content&lt;/code&gt;.
+The &lt;code&gt;content&lt;/code&gt; variable holds the page/post content including any sub-template content previously defined.
+Render the content variable wherever you want your main content to be injected into your template:&lt;/p&gt;
+
+&lt;p&gt;  &lt;pre&gt;&lt;code&gt;...
+&amp;lt;body&amp;gt;
+  &amp;lt;div id=&quot;sidebar&quot;&amp;gt; ... &amp;lt;/div&amp;gt;
+  &amp;lt;div id=&quot;main&quot;&amp;gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;amp;#123;{content}&amp;amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  &amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;h3&gt;Sub-Templates&lt;/h3&gt;
+
+&lt;p&gt;Sub-templates are exactly templates with the only difference being they
+define another &quot;root&quot; layout/template within their YAML Front Matter.
+This essentially means a template will render inside of another template.&lt;/p&gt;
+
+&lt;h3&gt;Includes&lt;/h3&gt;
+
+&lt;p&gt;In Jekyll you can define include files by placing them in the &lt;code&gt;_includes&lt;/code&gt; folder.
+Includes are NOT templates, rather they are just code snippets that get included into templates.
+In this way, you can treat the code inside includes as if it was native to the parent template.&lt;/p&gt;
+
+&lt;p&gt;Any valid template code may be used in includes.&lt;/p&gt;
+
+&lt;h2&gt;Using Liquid for Templating&lt;/h2&gt;
+
+&lt;p&gt;Templating is perhaps the most confusing and frustrating part of Jekyll.
+This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.&lt;/p&gt;
+
+&lt;h3&gt;What is Liquid?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Shopify/liquid&quot;&gt;Liquid&lt;/a&gt; is a secure templating language developed by &lt;a href=&quot;http://shopify.com&quot;&gt;Shopify&lt;/a&gt;.
+Liquid is designed for end-users to be able to execute logic within template files
+without imposing any security risk on the hosting server.&lt;/p&gt;
+
+&lt;p&gt;Jekyll uses Liquid to generate the post content within the final page layout structure and as the primary interface for working with
+your site and post/page data.&lt;/p&gt;
+
+&lt;h3&gt;Why Do We Have to Use Liquid?&lt;/h3&gt;
+
+&lt;p&gt;GitHub uses Jekyll to power &lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.
+GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid.&lt;/p&gt;
+
+&lt;h3&gt;Liquid is Not Programmer-Friendly.&lt;/h3&gt;
+
+&lt;p&gt;The short story is liquid is not real code and its not intended to execute real code.
+The point being you can't do jackshit in liquid that hasn't been allowed explicitly by the implementation.
+What's more you can only access data-structures that have been explicitly passed to the template.&lt;/p&gt;
+
+&lt;p&gt;In Jekyll's case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins.
+Both of which cannot be supported by GitHub Pages.&lt;/p&gt;
+
+&lt;p&gt;As a programmer - this is very frustrating.&lt;/p&gt;
+
+&lt;p&gt;But rather than look a gift horse in the mouth we are going to
+suck it up and view it as an opportunity to work around limitations and adopt client-side solutions when possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aside&lt;/strong&gt;
+My personal stance is to not invest time trying to hack liquid. It's really unnecessary
+&lt;em&gt;from a programmer's&lt;/em&gt; perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code)
+you are better off sticking with ruby. Toward that end I've built &lt;a href=&quot;http://github.com/plusjade/mustache-with-jekyll&quot;&gt;Mustache-with-Jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Static Assets&lt;/h2&gt;
+
+&lt;p&gt;Static assets are any file in the root or non-underscored subfolders that are not pages.
+That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages.&lt;/p&gt;
+
+&lt;p&gt;Static assets should be used for images, css, and javascript files.&lt;/p&gt;
+
+&lt;h2&gt;How Jekyll Parses Files&lt;/h2&gt;
+
+&lt;p&gt;Remember Jekyll is a processing engine. There are two main types of parsing in Jekyll.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Content parsing.&lt;/strong&gt;
+  This is done with textile or markdown.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Template parsing.&lt;/strong&gt;
+This is done with the liquid templating language.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;And thus there are two main types of file formats needed for this parsing.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Post and Page files.&lt;/strong&gt;
+All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Template files.&lt;/strong&gt;
+  These files go in &lt;code&gt;_layouts&lt;/code&gt; folder and contain your blogs &lt;strong&gt;templates&lt;/strong&gt;. They should be made in HTML with the help of Liquid syntax.
+  Since include files are simply injected into templates they are essentially parsed as if they were native to the template.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Arbitrary files and folders.&lt;/strong&gt;
+Files that &lt;em&gt;are not&lt;/em&gt; valid pages are treated as static content and pass through
+Jekyll untouched and reside on your blog in the exact structure and format they originally existed in.&lt;/p&gt;
+
+&lt;h3&gt;Formatting Files for Parsing.&lt;/h3&gt;
+
+&lt;p&gt;We've outlined the need for valid formatting using &lt;strong&gt;YAML Front Matter&lt;/strong&gt;.
+Templates, posts, and pages all need to provide valid YAML Front Matter even if the Matter is empty.
+This is the only way Jekyll knows you want the file processed.&lt;/p&gt;
+
+&lt;p&gt;YAML Front Matter must be prepended to the top of template/post/page files:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+layout: post
+category : pages
+tags : [how-to, jekyll]
+---
+
+... contents ...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block.
+The data inside the block must be valid YAML.&lt;/p&gt;
+
+&lt;p&gt;Configuration parameters for YAML Front-Matter is outlined here:
+&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot;&gt;A comprehensive explanation of YAML Front Matter&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Defining Layouts for Posts and Templates Parsing.&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;layout&lt;/code&gt; parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into.
+If a template file specifies its own layout, it is effectively being used as a &lt;code&gt;sub-template.&lt;/code&gt;
+That is to say loading a post file into a template file that refers to another template file with work in the way you'd expect; as a nested sub-template.&lt;/p&gt;
+
+&lt;h2&gt;How Jekyll Generates the Final Static Files.&lt;/h2&gt;
+
+&lt;p&gt;Ultimately, Jekyll's job is to generate a static representation of your website.
+The following is an outline of how that's done:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Jekyll collects data.&lt;/strong&gt;
+Jekyll scans the posts directory and collects all posts files as post objects. It then scans the layout assets and collects those and finally scans other directories in search of pages.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Jekyll computes data.&lt;/strong&gt;
+Jekyll takes these objects, computes metadata (permalinks, tags, categories, titles, dates) from them and constructs one
+big &lt;code&gt;site&lt;/code&gt; object that holds all the posts, pages, layouts, and respective metadata.
+At this stage your site is one big computed ruby object.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Jekyll liquifies posts and templates.&lt;/strong&gt;
+Next jekyll loops through each post file and converts (through markdown or textile) and &lt;strong&gt;liquifies&lt;/strong&gt; the post inside of its respective layout(s).
+Once the post is parsed and liquified inside the the proper layout structure, the layout itself is &quot;liquified&quot;.
+ &lt;strong&gt;Liquification&lt;/strong&gt; is defined as follows: Jekyll initiates a Liquid template, and passes a simpler hash representation of the ruby site object as well as a simpler
+hash representation of the ruby post object. These simplified data structures are what you have access to in the templates.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Jekyll generates output.&lt;/strong&gt;
+ Finally the liquid templates are &quot;rendered&quot;, thereby processing any liquid syntax provided in the templates
+ and saving the final, static representation of the file.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Notes.&lt;/strong&gt;
+Because Jekyll computes the entire site in one fell swoop, each template is given access to
+a global &lt;code&gt;site&lt;/code&gt; hash that contains useful data. It is this data that you'll iterate through and format
+using the Liquid tags and filters in order to render it onto a given page.&lt;/p&gt;
+
+&lt;p&gt;Remember, in Jekyll you are an end-user. Your API has only two components:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The manner in which you setup your directory.&lt;/li&gt;
+&lt;li&gt;The liquid syntax and variables passed into the liquid templates.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;All the data objects available to you in the templates via Liquid are outlined in the &lt;strong&gt;API Section&lt;/strong&gt; of Jekyll-Bootstrap.
+You can also read the original documentation here: &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Template-Data&quot;&gt;https://github.com/mojombo/jekyll/wiki/Template-Data&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I hope this paints a clearer picture of what Jekyll is doing and why it works the way it does.
+As noted, our main programming constraint is the fact that our API is limited to what is accessible via Liquid and Liquid only.&lt;/p&gt;
+
+&lt;p&gt;Jekyll-bootstrap is intended to provide helper methods and strategies aimed at making it more intuitive and easier to work with Jekyll =)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thank you&lt;/strong&gt; for reading this far.&lt;/p&gt;
+
+&lt;h2&gt;Next Steps&lt;/h2&gt;
+
+&lt;p&gt;Please take a look at &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you'd like.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

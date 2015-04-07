@@ -64,10 +64,10 @@ category: traveling
 
 下一个旅行地点：台湾
 
-[road]: /image/road.jpg
-[seaside]: /image/seaside.jpg
-[sunrise]: /image/sunrise.jpg
-[sunset]: /image/sunset.jpg
-[tunnel1]: /image/tunnel1.jpg
-[tunnel2]: /image/tunnel2.jpg
-[tunnel3]: /image/tunnel3.jpg
+[road]: /image/Xiamen/road.jpg
+[seaside]: /image/Xiamen/seaside.jpg
+[sunrise]: /image/Xiamen/sunrise.jpg
+[sunset]: /image/Xiamen/sunset.jpg
+[tunnel1]: /image/Xiamen/tunnel1.jpg
+[tunnel2]: /image/Xiamen/tunnel2.jpg
+[tunnel3]: /image/Xiamen/tunnel3.jpg

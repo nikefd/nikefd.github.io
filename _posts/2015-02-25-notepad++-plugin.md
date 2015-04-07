@@ -28,5 +28,5 @@ category: technology
 
 [1]: https://github.com/Edditoria/markdown_npp_zenburn/archive/master.zip    "markdown"
 
-[explorer]: /image/explorer.png
-[compare]: /image/compare.png
+[explorer]: /image/notepad/explorer.png
+[compare]: /image/notepad/compare.png

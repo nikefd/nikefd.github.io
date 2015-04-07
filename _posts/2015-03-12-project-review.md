@@ -405,4 +405,4 @@ Ok, that's all. thanks for your attention.
 
 [1]: http://nikefd.elastos.org/2015/01/19/9/    "u-boot编译"
 [2]: http://nikefd.elastos.org/2015/01/26/%E5%9C%A8u-boot%E5%9F%BA%E7%A1%80%E4%B8%8A%E5%9C%A8pandaboard%E4%B8%8A%E8%B7%91%E7%AE%80%E5%8D%95%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%88experiment-2%EF%BC%89/  "u-boot上跑自己的小程序"
-[data-path]: /image/data-path.png
+[data-path]: /image/interview-p/data-path.png
